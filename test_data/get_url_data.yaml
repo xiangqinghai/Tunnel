@@ -1,0 +1,216 @@
+#get/post请求，参数url,data
+-
+  name: 大屏登录
+  request :
+    method: post
+    HOST: http://47.108.217.193:8892
+    url: /dp/login
+    data:
+      username: admin
+      password: 111111
+  validdate:
+    equals:
+      status_code: 200
+-
+  name: 隧道列表
+  request :
+    method: get
+    HOST: http://47.108.217.193:8892
+    url: /dp/tunnelList
+    data:
+      proId: 1
+  validdate:
+    equals:
+      status_code: 200
+-
+  name: 大屏人员实名制统计(各部门人员统计)
+  request :
+    method: get
+    HOST: http://47.108.217.193:8892
+    url: /dp/employerStat
+    data:
+      tunnelId: 1
+  validdate:
+    equals:
+      status_code: 200
+-
+  name: 实名制人员管理查看更多-按部门分组
+  request :
+    method: get
+    HOST: http://47.108.217.193:8892
+    url: /dp/allEmployers
+    data:
+      tunnelId: 1,
+      name: 王
+  validdate:
+    equals:
+      status_code: 200
+-
+  name: 单个员工详情
+  request :
+    method: get
+    HOST: http://47.108.217.193:8892
+    url: /dp/employerDetail
+    data:
+       id: 143
+  validdate:
+    equals:
+      status_code: 200
+
+-
+  name: 门禁记录查看更多-部门下拉选项
+  request :
+    method: get
+    HOST: http://47.108.217.193:8892
+    url: /dp/depts
+    data:
+      tunnelId: 1
+  validdate:
+    equals:
+      status_code: 200
+
+-
+  name: 门禁记录查看更多-车辆类型下拉选项
+  request :
+    method: get
+    HOST: http://47.108.217.193:8892
+    url: /dp/carTypes
+    data:
+      tunnelId: 1
+  validdate:
+    equals:
+      status_code: 200
+
+-
+  name: 查看门禁记录,type=1查看人员门禁记录，type=2查看车辆门禁记录
+  request :
+    method: get
+    HOST: http://47.108.217.193:8892
+    url: /dp/getExitRecord
+    data:
+      current: 1,
+      limit: 10,
+      tunnelId: 1,
+      type: 1
+  validdate:
+    equals:
+      status_code: 200
+
+-
+  name: 查看门禁记录,type=1查看人员门禁记录，type=2查看车辆门禁记录
+  request :
+    method: get
+    HOST: http://47.108.217.193:8892
+    url: /dp/getExitRecord
+    data:
+      current: 1,
+      limit: 10,
+      tunnelId: 1,
+      type: 2
+  validdate:
+    equals:
+      status_code: 200
+
+-
+  name: 3D 定位区域数据
+  request :
+    method: get
+    HOST: http://47.108.217.193:8892
+    url: /dp/regionLocation3D
+    data:
+      tunnelId: 1
+  validdate:
+    equals:
+      status_code: 200
+
+-
+  name: 获取播放流地址
+  request :
+    method: get
+    HOST: http://47.108.217.193:8892
+    url: /dp/getVideoStream
+    data:
+      tunnelId: 1
+  validdate:
+    equals:
+      status_code: 200
+
+-
+  name: 各位置最新进尺信息
+  request :
+    method: get
+    HOST: http://47.108.217.193:8892
+    url: /dp/jinchiInfo
+    data:
+      tunnelId: 1
+  validdate:
+    equals:
+      status_code: 200
+
+-
+  name: 获取进度统计柱形图的时间范围下拉数据
+  request :
+    method: get
+    HOST: http://47.108.217.193:8892
+    url: /dp/jcLineQueryRange
+    data:
+      tunnelId: 1
+  validdate:
+    equals:
+      status_code: 200
+
+-
+  name: 获取进度柱形统计图数据，参数为左右洞和时间范围，默认时间范围近七天;左洞left/右洞right;进口端enter/出口端exit
+  request :
+    method: get
+    HOST: http://47.108.217.193:8892
+    url: /dp/getJcLine
+    data:
+      direction: left,
+      duan: enter,
+      tunnelId: 1
+  validdate:
+    equals:
+      status_code: 200
+
+-
+  name: 获取进度柱形统计图数据，参数为左右洞和时间范围，默认时间范围近七天;左洞left/右洞right;进口端enter/出口端exit
+  request :
+    method: get
+    HOST: http://47.108.217.193:8892
+    url: /dp/getJcLine
+    data:
+      direction: right,
+      duan: exit,
+      tunnelId: 1
+  validdate:
+    equals:
+      status_code: 200
+
+-
+  name: 获取风机设备列表
+  request :
+    method: get
+    HOST: http://47.108.217.193:8892
+    url: /dp/fanList
+    data:
+      direction: right,
+      duan: exit,
+      tunnelId: 1
+  validdate:
+    equals:
+      status_code: 200
+
+-
+  name: 获取空压机设备列表
+  request :
+    method: get
+    HOST: http://47.108.217.193:8892
+    url: /dp/compressorList
+    data:
+      direction: right,
+      duan: exit,
+      tunnelId: 1
+  validdate:
+    equals:
+      status_code: 200

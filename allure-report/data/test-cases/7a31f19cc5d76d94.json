@@ -1,0 +1,121 @@
+{
+  "uid" : "7a31f19cc5d76d94",
+  "name" : "test_01_sysTime[common0]",
+  "fullName" : "test_case.test.TestDaping#test_01_sysTime",
+  "historyId" : "5576d4774bd02fd34a21f32e87f7794b",
+  "time" : {
+    "start" : 1642776357741,
+    "stop" : 1642776357770,
+    "duration" : 29
+  },
+  "description" : "获取系统时间",
+  "descriptionHtml" : "<p>获取系统时间</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 7,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "test_case"
+  }, {
+    "name" : "suite",
+    "value" : "test"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestDaping"
+  }, {
+    "name" : "host",
+    "value" : "SKY-20200412HPG"
+  }, {
+    "name" : "thread",
+    "value" : "14312-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_case.test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "common",
+    "value" : "{'name': '获取系统时间', 'request': {'method': 'get', 'HOST': 'http://47.108.217.193:8892', 'url': '/dp/sysTime'}, 'validdate': {'equals': {'status_code': 200}}}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "702783571f28259a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1642771118896,
+        "stop" : 1642771118929,
+        "duration" : 33
+      }
+    }, {
+      "uid" : "12a952d08f4869bf",
+      "status" : "passed",
+      "time" : {
+        "start" : 1642768515736,
+        "stop" : 1642768515758,
+        "duration" : 22
+      }
+    }, {
+      "uid" : "9b8b3169f03d581d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1642768430162,
+        "stop" : 1642768430198,
+        "duration" : 36
+      }
+    }, {
+      "uid" : "2ec077916459741a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1642080308026,
+        "stop" : 1642080308072,
+        "duration" : 46
+      }
+    }, {
+      "uid" : "83b713040ce188b5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1642079861931,
+        "stop" : 1642079861969,
+        "duration" : 38
+      }
+    }, {
+      "uid" : "24325dd36453daab",
+      "status" : "passed",
+      "time" : {
+        "start" : 1642079790627,
+        "stop" : 1642079790657,
+        "duration" : 30
+      }
+    }, {
+      "uid" : "a3cc83b2426a7416",
+      "status" : "passed",
+      "time" : {
+        "start" : 1642079589099,
+        "stop" : 1642079589128,
+        "duration" : 29
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "7a31f19cc5d76d94.json",
+  "parameterValues" : [ "{'name': '获取系统时间', 'request': {'method': 'get', 'HOST': 'http://47.108.217.193:8892', 'url': '/dp/sysTime'}, 'validdate': {'equals': {'status_code': 200}}}" ]
+}

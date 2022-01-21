@@ -1,0 +1,121 @@
+{
+  "uid" : "52455d653e8e4ace",
+  "name" : "test_01_sysTime[common1]",
+  "fullName" : "test_case.test.TestDaping#test_01_sysTime",
+  "historyId" : "c0ceb75b4b76737aad7579d517cc5499",
+  "time" : {
+    "start" : 1642776357775,
+    "stop" : 1642776357794,
+    "duration" : 19
+  },
+  "description" : "获取系统时间",
+  "descriptionHtml" : "<p>获取系统时间</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 7,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "test_case"
+  }, {
+    "name" : "suite",
+    "value" : "test"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestDaping"
+  }, {
+    "name" : "host",
+    "value" : "SKY-20200412HPG"
+  }, {
+    "name" : "thread",
+    "value" : "14312-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_case.test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "common",
+    "value" : "{'name': '获取天气', 'request': {'method': 'get', 'HOST': 'http://47.108.217.193:8892', 'url': '/dp/weather'}, 'validdate': {'equals': {'status_code': 200}}}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "24a37ce596df1b59",
+      "status" : "passed",
+      "time" : {
+        "start" : 1642771118939,
+        "stop" : 1642771118965,
+        "duration" : 26
+      }
+    }, {
+      "uid" : "9fb35994ce179fbf",
+      "status" : "passed",
+      "time" : {
+        "start" : 1642768515762,
+        "stop" : 1642768515785,
+        "duration" : 23
+      }
+    }, {
+      "uid" : "463ebe88a2e02fa5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1642768430215,
+        "stop" : 1642768430250,
+        "duration" : 35
+      }
+    }, {
+      "uid" : "c352f46d1454af50",
+      "status" : "passed",
+      "time" : {
+        "start" : 1642080308077,
+        "stop" : 1642080308099,
+        "duration" : 22
+      }
+    }, {
+      "uid" : "fabf3c034573f977",
+      "status" : "passed",
+      "time" : {
+        "start" : 1642079861976,
+        "stop" : 1642079862000,
+        "duration" : 24
+      }
+    }, {
+      "uid" : "3eb73def3d4cec21",
+      "status" : "passed",
+      "time" : {
+        "start" : 1642079790662,
+        "stop" : 1642079790684,
+        "duration" : 22
+      }
+    }, {
+      "uid" : "9e7307dd92666c72",
+      "status" : "passed",
+      "time" : {
+        "start" : 1642079589133,
+        "stop" : 1642079589157,
+        "duration" : 24
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "52455d653e8e4ace.json",
+  "parameterValues" : [ "{'name': '获取天气', 'request': {'method': 'get', 'HOST': 'http://47.108.217.193:8892', 'url': '/dp/weather'}, 'validdate': {'equals': {'status_code': 200}}}" ]
+}

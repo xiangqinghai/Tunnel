@@ -1,0 +1,201 @@
+[ {
+  "uid" : "c3e6d38cbbf00c42",
+  "name" : "test_03_login[urldata5]",
+  "time" : {
+    "start" : 1642776358117,
+    "stop" : 1642776358140,
+    "duration" : 23
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4a5edf99bfa453f3",
+  "name" : "test_03_login[urldata6]",
+  "time" : {
+    "start" : 1642776358149,
+    "stop" : 1642776358174,
+    "duration" : 25
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9edf9378925daf8f",
+  "name" : "test_03_login[urldata3]",
+  "time" : {
+    "start" : 1642776358045,
+    "stop" : 1642776358085,
+    "duration" : 40
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "aa26a16fbeb92d2a",
+  "name" : "test_03_login[urldata14]",
+  "time" : {
+    "start" : 1642776358486,
+    "stop" : 1642776358507,
+    "duration" : 21
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "7b2dcee06fe10765",
+  "name" : "test_03_login[urldata15]",
+  "time" : {
+    "start" : 1642776358524,
+    "stop" : 1642776358549,
+    "duration" : 25
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4917563e6be8e9f1",
+  "name" : "test_03_login[urldata13]",
+  "time" : {
+    "start" : 1642776358448,
+    "stop" : 1642776358472,
+    "duration" : 24
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "52455d653e8e4ace",
+  "name" : "test_01_sysTime[common1]",
+  "time" : {
+    "start" : 1642776357775,
+    "stop" : 1642776357794,
+    "duration" : 19
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fff56b473f6c17ed",
+  "name" : "test_01_sysTime[common2]",
+  "time" : {
+    "start" : 1642776357799,
+    "stop" : 1642776357827,
+    "duration" : 28
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "bebdda8b829cfa49",
+  "name" : "test_03_login[urldata8]",
+  "time" : {
+    "start" : 1642776358224,
+    "stop" : 1642776358250,
+    "duration" : 26
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "3e10a92388b903ad",
+  "name" : "test_03_login[urldata7]",
+  "time" : {
+    "start" : 1642776358180,
+    "stop" : 1642776358207,
+    "duration" : 27
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "8d7f1a409b178f14",
+  "name" : "test_03_login[urldata2]",
+  "time" : {
+    "start" : 1642776358009,
+    "stop" : 1642776358039,
+    "duration" : 30
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "61ae721d31e22c6f",
+  "name" : "test_03_login[urldata4]",
+  "time" : {
+    "start" : 1642776358091,
+    "stop" : 1642776358111,
+    "duration" : 20
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d11710948e590e9d",
+  "name" : "test_03_login[urldata12]",
+  "time" : {
+    "start" : 1642776358395,
+    "stop" : 1642776358427,
+    "duration" : 32
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "ae5f8573218762ec",
+  "name" : "test_03_login[urldata1]",
+  "time" : {
+    "start" : 1642776357858,
+    "stop" : 1642776357883,
+    "duration" : 25
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "e59f5cebce799c65",
+  "name" : "test_03_login[urldata11]",
+  "time" : {
+    "start" : 1642776358351,
+    "stop" : 1642776358380,
+    "duration" : 29
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "982b19f7b54c537d",
+  "name" : "test_03_login[urldata0]",
+  "time" : {
+    "start" : 1642776357832,
+    "stop" : 1642776357853,
+    "duration" : 21
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f228f078dd3f24ff",
+  "name" : "test_03_login[urldata10]",
+  "time" : {
+    "start" : 1642776358319,
+    "stop" : 1642776358342,
+    "duration" : 23
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7a31f19cc5d76d94",
+  "name" : "test_01_sysTime[common0]",
+  "time" : {
+    "start" : 1642776357741,
+    "stop" : 1642776357770,
+    "duration" : 29
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a25ab38dd974f5da",
+  "name" : "test_03_login[urldata16]",
+  "time" : {
+    "start" : 1642776358555,
+    "stop" : 1642776358576,
+    "duration" : 21
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "22d34c05d40b22a6",
+  "name" : "test_03_login[urldata9]",
+  "time" : {
+    "start" : 1642776358271,
+    "stop" : 1642776358296,
+    "duration" : 25
+  },
+  "status" : "failed",
+  "severity" : "normal"
+} ]

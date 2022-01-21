@@ -1,0 +1,63 @@
+{
+  "uid" : "8335977d32eed638",
+  "name" : "test_03_login[urldata8]",
+  "fullName" : "test_case.test.TestDaping#test_03_login",
+  "historyId" : "8f0e6223e7c8a3d1e11b2dabec019048",
+  "time" : {
+    "start" : 1642079790954,
+    "stop" : 1642079790976,
+    "duration" : 22
+  },
+  "description" : "参数有url和data",
+  "descriptionHtml" : "<p>参数有url和data</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "test_case"
+  }, {
+    "name" : "suite",
+    "value" : "test"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestDaping"
+  }, {
+    "name" : "host",
+    "value" : "SKY-20200412HPG"
+  }, {
+    "name" : "thread",
+    "value" : "7148-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_case.test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "urldata",
+    "value" : "{'name': '查看门禁记录,type=1查看人员门禁记录，type=2查看车辆门禁记录', 'request': {'method': 'get', 'HOST': 'http://47.108.217.193:8892', 'url': '/dp/getExitRecord', 'data': {'current': '1,', 'limit': '10,', 'tunnelId': '1,', 'type': 2}}, 'validdate': {'equals': {'status_code': 200}}}"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "8335977d32eed638.json",
+  "parameterValues" : [ "{'name': '查看门禁记录,type=1查看人员门禁记录，type=2查看车辆门禁记录', 'request': {'method': 'get', 'HOST': 'http://47.108.217.193:8892', 'url': '/dp/getExitRecord', 'data': {'current': '1,', 'limit': '10,', 'tunnelId': '1,', 'type': 2}}, 'validdate': {'equals': {'status_code': 200}}}" ]
+}

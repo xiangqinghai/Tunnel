@@ -1,0 +1,2761 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "SKY-20200412HPG",
+    "children" : [ {
+      "name" : "6184-MainThread",
+      "children" : [ {
+        "name" : "test_03_login[urldata7]",
+        "uid" : "ae71c10c64592c9b",
+        "parentUid" : "6a31cf6a12e02b0528578ad2934f07c3",
+        "status" : "failed",
+        "time" : {
+          "start" : 1642080308481,
+          "stop" : 1642080308507,
+          "duration" : 26
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'name': '查看门禁记录,type=1查看人员门禁记录，type=2查看车辆门禁记录', 'request': {'method': 'get', 'HOST': 'http://47.108.217.193:8892', 'url': '/dp/getExitRecord', 'data': {'current': '1,', 'limit': '10,', 'tunnelId': '1,', 'type': 1}}, 'validdate': {'equals': {'status_code': 200}}}" ]
+      }, {
+        "name" : "test_03_login[urldata8]",
+        "uid" : "9e876db079a634a3",
+        "parentUid" : "6a31cf6a12e02b0528578ad2934f07c3",
+        "status" : "failed",
+        "time" : {
+          "start" : 1642080308517,
+          "stop" : 1642080308548,
+          "duration" : 31
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'name': '查看门禁记录,type=1查看人员门禁记录，type=2查看车辆门禁记录', 'request': {'method': 'get', 'HOST': 'http://47.108.217.193:8892', 'url': '/dp/getExitRecord', 'data': {'current': '1,', 'limit': '10,', 'tunnelId': '1,', 'type': 2}}, 'validdate': {'equals': {'status_code': 200}}}" ]
+      }, {
+        "name" : "test_03_login[urldata4]",
+        "uid" : "627eb199212048d7",
+        "parentUid" : "6a31cf6a12e02b0528578ad2934f07c3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642080308391,
+          "stop" : 1642080308419,
+          "duration" : 28
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'name': '单个员工详情', 'request': {'method': 'get', 'HOST': 'http://47.108.217.193:8892', 'url': '/dp/employerDetail', 'data': {'id': 143}}, 'validdate': {'equals': {'status_code': 200}}}" ]
+      }, {
+        "name" : "test_03_login[urldata2]",
+        "uid" : "753f9e9f46daf638",
+        "parentUid" : "6a31cf6a12e02b0528578ad2934f07c3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642080308335,
+          "stop" : 1642080308359,
+          "duration" : 24
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'name': '大屏人员实名制统计(各部门人员统计)', 'request': {'method': 'get', 'HOST': 'http://47.108.217.193:8892', 'url': '/dp/employerStat', 'data': {'tunnelId': 1}}, 'validdate': {'equals': {'status_code': 200}}}" ]
+      }, {
+        "name" : "test_03_login[urldata14]",
+        "uid" : "bfb79a8b10992c93",
+        "parentUid" : "6a31cf6a12e02b0528578ad2934f07c3",
+        "status" : "failed",
+        "time" : {
+          "start" : 1642080308792,
+          "stop" : 1642080308815,
+          "duration" : 23
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'name': '获取进度柱形统计图数据，参数为左右洞和时间范围，默认时间范围近七天;左洞left/右洞right;进口端enter/出口端exit', 'request': {'method': 'get', 'HOST': 'http://47.108.217.193:8892', 'url': '/dp/getJcLine', 'data': {'direction': 'right,', 'duan': 'exit,', 'tunnelId': 1}}, 'validdate': {'equals': {'status_code': 200}}}" ]
+      }, {
+        "name" : "test_03_login[urldata15]",
+        "uid" : "25b9468735b516f8",
+        "parentUid" : "6a31cf6a12e02b0528578ad2934f07c3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642080308826,
+          "stop" : 1642080308850,
+          "duration" : 24
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'name': '获取风机设备列表', 'request': {'method': 'get', 'HOST': 'http://47.108.217.193:8892', 'url': '/dp/fanList', 'data': {'direction': 'right,', 'duan': 'exit,', 'tunnelId': 1}}, 'validdate': {'equals': {'status_code': 200}}}" ]
+      }, {
+        "name" : "test_03_login[urldata10]",
+        "uid" : "c1239a31fbcbccf8",
+        "parentUid" : "6a31cf6a12e02b0528578ad2934f07c3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642080308596,
+          "stop" : 1642080308650,
+          "duration" : 54
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'name': '获取播放流地址', 'request': {'method': 'get', 'HOST': 'http://47.108.217.193:8892', 'url': '/dp/getVideoStream', 'data': {'tunnelId': 1}}, 'validdate': {'equals': {'status_code': 200}}}" ]
+      }, {
+        "name" : "test_03_login[urldata13]",
+        "uid" : "f91b4fc7bf10eef3",
+        "parentUid" : "6a31cf6a12e02b0528578ad2934f07c3",
+        "status" : "failed",
+        "time" : {
+          "start" : 1642080308744,
+          "stop" : 1642080308782,
+          "duration" : 38
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'name': '获取进度柱形统计图数据，参数为左右洞和时间范围，默认时间范围近七天;左洞left/右洞right;进口端enter/出口端exit', 'request': {'method': 'get', 'HOST': 'http://47.108.217.193:8892', 'url': '/dp/getJcLine', 'data': {'direction': 'left,', 'duan': 'enter,', 'tunnelId': 1}}, 'validdate': {'equals': {'status_code': 200}}}" ]
+      }, {
+        "name" : "test_03_login[urldata6]",
+        "uid" : "1dcde3c3af3710e2",
+        "parentUid" : "6a31cf6a12e02b0528578ad2934f07c3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642080308452,
+          "stop" : 1642080308477,
+          "duration" : 25
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'name': '门禁记录查看更多-车辆类型下拉选项', 'request': {'method': 'get', 'HOST': 'http://47.108.217.193:8892', 'url': '/dp/carTypes', 'data': {'tunnelId': 1}}, 'validdate': {'equals': {'status_code': 200}}}" ]
+      }, {
+        "name" : "test_01_sysTime[common2]",
+        "uid" : "c3a36ebec4695fad",
+        "parentUid" : "6a31cf6a12e02b0528578ad2934f07c3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642080308104,
+          "stop" : 1642080308134,
+          "duration" : 30
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'name': '项目列表', 'request': {'method': 'get', 'HOST': 'http://47.108.217.193:8892', 'url': '/dp/projectList'}, 'validdate': {'equals': {'status_code': 200}}}" ]
+      }, {
+        "name" : "test_03_login[urldata1]",
+        "uid" : "b2b80b451cfe2e9c",
+        "parentUid" : "6a31cf6a12e02b0528578ad2934f07c3",
+        "status" : "failed",
+        "time" : {
+          "start" : 1642080308173,
+          "stop" : 1642080308213,
+          "duration" : 40
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'name': '隧道列表', 'request': {'method': 'get', 'HOST': 'http://47.108.217.193:8892', 'url': '/dp/tunnelList', 'data': {'proId': 1}}, 'validdate': {'equals': {'status_code': 200}}}" ]
+      }, {
+        "name" : "test_03_login[urldata12]",
+        "uid" : "7a21be66b1aedd08",
+        "parentUid" : "6a31cf6a12e02b0528578ad2934f07c3",
+        "status" : "failed",
+        "time" : {
+          "start" : 1642080308695,
+          "stop" : 1642080308733,
+          "duration" : 38
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'name': '获取进度统计柱形图的时间范围下拉数据', 'request': {'method': 'get', 'HOST': 'http://47.108.217.193:8892', 'url': '/dp/jcLineQueryRange', 'data': {'tunnelId': 1}}, 'validdate': {'equals': {'status_code': 200}}}" ]
+      }, {
+        "name" : "test_03_login[urldata16]",
+        "uid" : "405db34e72bd13fc",
+        "parentUid" : "6a31cf6a12e02b0528578ad2934f07c3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642080308854,
+          "stop" : 1642080308875,
+          "duration" : 21
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'name': '获取空压机设备列表', 'request': {'method': 'get', 'HOST': 'http://47.108.217.193:8892', 'url': '/dp/compressorList', 'data': {'direction': 'right,', 'duan': 'exit,', 'tunnelId': 1}}, 'validdate': {'equals': {'status_code': 200}}}" ]
+      }, {
+        "name" : "test_03_login[urldata3]",
+        "uid" : "27ad8c6671c09014",
+        "parentUid" : "6a31cf6a12e02b0528578ad2934f07c3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642080308363,
+          "stop" : 1642080308386,
+          "duration" : 23
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'name': '实名制人员管理查看更多-按部门分组', 'request': {'method': 'get', 'HOST': 'http://47.108.217.193:8892', 'url': '/dp/allEmployers', 'data': {'tunnelId': '1,', 'name': '王'}}, 'validdate': {'equals': {'status_code': 200}}}" ]
+      }, {
+        "name" : "test_01_sysTime[common1]",
+        "uid" : "c352f46d1454af50",
+        "parentUid" : "6a31cf6a12e02b0528578ad2934f07c3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642080308077,
+          "stop" : 1642080308099,
+          "duration" : 22
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'name': '获取天气', 'request': {'method': 'get', 'HOST': 'http://47.108.217.193:8892', 'url': '/dp/weather'}, 'validdate': {'equals': {'status_code': 200}}}" ]
+      }, {
+        "name" : "test_01_sysTime[common0]",
+        "uid" : "2ec077916459741a",
+        "parentUid" : "6a31cf6a12e02b0528578ad2934f07c3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642080308026,
+          "stop" : 1642080308072,
+          "duration" : 46
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'name': '获取系统时间', 'request': {'method': 'get', 'HOST': 'http://47.108.217.193:8892', 'url': '/dp/sysTime'}, 'validdate': {'equals': {'status_code': 200}}}" ]
+      }, {
+        "name" : "test_03_login[urldata0]",
+        "uid" : "46c0371cd75e1a7d",
+        "parentUid" : "6a31cf6a12e02b0528578ad2934f07c3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642080308139,
+          "stop" : 1642080308169,
+          "duration" : 30
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'name': '大屏登录', 'request': {'method': 'post', 'HOST': 'http://47.108.217.193:8892', 'url': '/dp/login', 'data': {'username': 'admin', 'password': 111111}}, 'validdate': {'equals': {'status_code': 200}}}" ]
+      }, {
+        "name" : "test_03_login[urldata5]",
+        "uid" : "27145fd796995208",
+        "parentUid" : "6a31cf6a12e02b0528578ad2934f07c3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642080308424,
+          "stop" : 1642080308446,
+          "duration" : 22
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'name': '门禁记录查看更多-部门下拉选项', 'request': {'method': 'get', 'HOST': 'http://47.108.217.193:8892', 'url': '/dp/depts', 'data': {'tunnelId': 1}}, 'validdate': {'equals': {'status_code': 200}}}" ]
+      }, {
+        "name" : "test_03_login[urldata11]",
+        "uid" : "7a78e8bff814768",
+        "parentUid" : "6a31cf6a12e02b0528578ad2934f07c3",
+        "status" : "failed",
+        "time" : {
+          "start" : 1642080308654,
+          "stop" : 1642080308684,
+          "duration" : 30
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'name': '各位置最新进尺信息', 'request': {'method': 'get', 'HOST': 'http://47.108.217.193:8892', 'url': '/dp/jinchiInfo', 'data': {'tunnelId': 1}}, 'validdate': {'equals': {'status_code': 200}}}" ]
+      }, {
+        "name" : "test_03_login[urldata9]",
+        "uid" : "78e62302c2b034f4",
+        "parentUid" : "6a31cf6a12e02b0528578ad2934f07c3",
+        "status" : "failed",
+        "time" : {
+          "start" : 1642080308560,
+          "stop" : 1642080308584,
+          "duration" : 24
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'name': '3D 定位区域数据', 'request': {'method': 'get', 'HOST': 'http://47.108.217.193:8892', 'url': '/dp/regionLocation3D', 'data': {'tunnelId': 1}}, 'validdate': {'equals': {'status_code': 200}}}" ]
+      } ],
+      "uid" : "6a31cf6a12e02b0528578ad2934f07c3"
+    }, {
+      "name" : "10248-MainThread",
+      "children" : [ {
+        "name" : "test_03_login[urldata7]",
+        "uid" : "7868bfcc5caec508",
+        "parentUid" : "197135087231d7b456543ab53b9e663a",
+        "status" : "failed",
+        "time" : {
+          "start" : 1642771119433,
+          "stop" : 1642771119458,
+          "duration" : 25
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'name': '查看门禁记录,type=1查看人员门禁记录，type=2查看车辆门禁记录', 'request': {'method': 'get', 'HOST': 'http://47.108.217.193:8892', 'url': '/dp/getExitRecord', 'data': {'current': '1,', 'limit': '10,', 'tunnelId': '1,', 'type': 1}}, 'validdate': {'equals': {'status_code': 200}}}" ]
+      }, {
+        "name" : "test_03_login[urldata14]",
+        "uid" : "3b843cc9cc9df097",
+        "parentUid" : "197135087231d7b456543ab53b9e663a",
+        "status" : "failed",
+        "time" : {
+          "start" : 1642771119718,
+          "stop" : 1642771119738,
+          "duration" : 20
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'name': '获取进度柱形统计图数据，参数为左右洞和时间范围，默认时间范围近七天;左洞left/右洞right;进口端enter/出口端exit', 'request': {'method': 'get', 'HOST': 'http://47.108.217.193:8892', 'url': '/dp/getJcLine', 'data': {'direction': 'right,', 'duan': 'exit,', 'tunnelId': 1}}, 'validdate': {'equals': {'status_code': 200}}}" ]
+      }, {
+        "name" : "test_03_login[urldata3]",
+        "uid" : "7e5581e9d48b2207",
+        "parentUid" : "197135087231d7b456543ab53b9e663a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642771119246,
+          "stop" : 1642771119274,
+          "duration" : 28
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'name': '实名制人员管理查看更多-按部门分组', 'request': {'method': 'get', 'HOST': 'http://47.108.217.193:8892', 'url': '/dp/allEmployers', 'data': {'tunnelId': '1,', 'name': '王'}}, 'validdate': {'equals': {'status_code': 200}}}" ]
+      }, {
+        "name" : "test_03_login[urldata12]",
+        "uid" : "17f4e8640ec7cf1d",
+        "parentUid" : "197135087231d7b456543ab53b9e663a",
+        "status" : "failed",
+        "time" : {
+          "start" : 1642771119643,
+          "stop" : 1642771119670,
+          "duration" : 27
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'name': '获取进度统计柱形图的时间范围下拉数据', 'request': {'method': 'get', 'HOST': 'http://47.108.217.193:8892', 'url': '/dp/jcLineQueryRange', 'data': {'tunnelId': 1}}, 'validdate': {'equals': {'status_code': 200}}}" ]
+      }, {
+        "name" : "test_03_login[urldata15]",
+        "uid" : "b8cba8eb27499a4b",
+        "parentUid" : "197135087231d7b456543ab53b9e663a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642771119751,
+          "stop" : 1642771119773,
+          "duration" : 22
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'name': '获取风机设备列表', 'request': {'method': 'get', 'HOST': 'http://47.108.217.193:8892', 'url': '/dp/fanList', 'data': {'direction': 'right,', 'duan': 'exit,', 'tunnelId': 1}}, 'validdate': {'equals': {'status_code': 200}}}" ]
+      }, {
+        "name" : "test_03_login[urldata11]",
+        "uid" : "19ae49bf418ebaf3",
+        "parentUid" : "197135087231d7b456543ab53b9e663a",
+        "status" : "failed",
+        "time" : {
+          "start" : 1642771119606,
+          "stop" : 1642771119627,
+          "duration" : 21
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'name': '各位置最新进尺信息', 'request': {'method': 'get', 'HOST': 'http://47.108.217.193:8892', 'url': '/dp/jinchiInfo', 'data': {'tunnelId': 1}}, 'validdate': {'equals': {'status_code': 200}}}" ]
+      }, {
+        "name" : "test_03_login[urldata9]",
+        "uid" : "c15f025adfb7dedc",
+        "parentUid" : "197135087231d7b456543ab53b9e663a",
+        "status" : "failed",
+        "time" : {
+          "start" : 1642771119518,
+          "stop" : 1642771119544,
+          "duration" : 26
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'name': '3D 定位区域数据', 'request': {'method': 'get', 'HOST': 'http://47.108.217.193:8892', 'url': '/dp/regionLocation3D', 'data': {'tunnelId': 1}}, 'validdate': {'equals': {'status_code': 200}}}" ]
+      }, {
+        "name" : "test_03_login[urldata16]",
+        "uid" : "32e1e7867b414e7b",
+        "parentUid" : "197135087231d7b456543ab53b9e663a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642771119779,
+          "stop" : 1642771119806,
+          "duration" : 27
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'name': '获取空压机设备列表', 'request': {'method': 'get', 'HOST': 'http://47.108.217.193:8892', 'url': '/dp/compressorList', 'data': {'direction': 'right,', 'duan': 'exit,', 'tunnelId': 1}}, 'validdate': {'equals': {'status_code': 200}}}" ]
+      }, {
+        "name" : "test_01_sysTime[common1]",
+        "uid" : "24a37ce596df1b59",
+        "parentUid" : "197135087231d7b456543ab53b9e663a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642771118939,
+          "stop" : 1642771118965,
+          "duration" : 26
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'name': '获取天气', 'request': {'method': 'get', 'HOST': 'http://47.108.217.193:8892', 'url': '/dp/weather'}, 'validdate': {'equals': {'status_code': 200}}}" ]
+      }, {
+        "name" : "test_01_sysTime[common0]",
+        "uid" : "702783571f28259a",
+        "parentUid" : "197135087231d7b456543ab53b9e663a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642771118896,
+          "stop" : 1642771118929,
+          "duration" : 33
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'name': '获取系统时间', 'request': {'method': 'get', 'HOST': 'http://47.108.217.193:8892', 'url': '/dp/sysTime'}, 'validdate': {'equals': {'status_code': 200}}}" ]
+      }, {
+        "name" : "test_03_login[urldata1]",
+        "uid" : "bef172f1469867bf",
+        "parentUid" : "197135087231d7b456543ab53b9e663a",
+        "status" : "failed",
+        "time" : {
+          "start" : 1642771119044,
+          "stop" : 1642771119067,
+          "duration" : 23
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'name': '隧道列表', 'request': {'method': 'get', 'HOST': 'http://47.108.217.193:8892', 'url': '/dp/tunnelList', 'data': {'proId': 1}}, 'validdate': {'equals': {'status_code': 200}}}" ]
+      }, {
+        "name" : "test_01_sysTime[common2]",
+        "uid" : "e4eefbdd4fb3f7b8",
+        "parentUid" : "197135087231d7b456543ab53b9e663a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642771118974,
+          "stop" : 1642771119000,
+          "duration" : 26
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'name': '项目列表', 'request': {'method': 'get', 'HOST': 'http://47.108.217.193:8892', 'url': '/dp/projectList'}, 'validdate': {'equals': {'status_code': 200}}}" ]
+      }, {
+        "name" : "test_03_login[urldata13]",
+        "uid" : "270e940fbd08f7f9",
+        "parentUid" : "197135087231d7b456543ab53b9e663a",
+        "status" : "failed",
+        "time" : {
+          "start" : 1642771119683,
+          "stop" : 1642771119705,
+          "duration" : 22
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'name': '获取进度柱形统计图数据，参数为左右洞和时间范围，默认时间范围近七天;左洞left/右洞right;进口端enter/出口端exit', 'request': {'method': 'get', 'HOST': 'http://47.108.217.193:8892', 'url': '/dp/getJcLine', 'data': {'direction': 'left,', 'duan': 'enter,', 'tunnelId': 1}}, 'validdate': {'equals': {'status_code': 200}}}" ]
+      }, {
+        "name" : "test_03_login[urldata6]",
+        "uid" : "c834f73e26e6af0f",
+        "parentUid" : "197135087231d7b456543ab53b9e663a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642771119401,
+          "stop" : 1642771119426,
+          "duration" : 25
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'name': '门禁记录查看更多-车辆类型下拉选项', 'request': {'method': 'get', 'HOST': 'http://47.108.217.193:8892', 'url': '/dp/carTypes', 'data': {'tunnelId': 1}}, 'validdate': {'equals': {'status_code': 200}}}" ]
+      }, {
+        "name" : "test_03_login[urldata0]",
+        "uid" : "31e508c4b879089a",
+        "parentUid" : "197135087231d7b456543ab53b9e663a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642771119009,
+          "stop" : 1642771119034,
+          "duration" : 25
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'name': '大屏登录', 'request': {'method': 'post', 'HOST': 'http://47.108.217.193:8892', 'url': '/dp/login', 'data': {'username': 'admin', 'password': 111111}}, 'validdate': {'equals': {'status_code': 200}}}" ]
+      }, {
+        "name" : "test_03_login[urldata4]",
+        "uid" : "e6264682bd465734",
+        "parentUid" : "197135087231d7b456543ab53b9e663a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642771119284,
+          "stop" : 1642771119318,
+          "duration" : 34
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'name': '单个员工详情', 'request': {'method': 'get', 'HOST': 'http://47.108.217.193:8892', 'url': '/dp/employerDetail', 'data': {'id': 143}}, 'validdate': {'equals': {'status_code': 200}}}" ]
+      }, {
+        "name" : "test_03_login[urldata10]",
+        "uid" : "f41f7a8719ca1065",
+        "parentUid" : "197135087231d7b456543ab53b9e663a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642771119560,
+          "stop" : 1642771119595,
+          "duration" : 35
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'name': '获取播放流地址', 'request': {'method': 'get', 'HOST': 'http://47.108.217.193:8892', 'url': '/dp/getVideoStream', 'data': {'tunnelId': 1}}, 'validdate': {'equals': {'status_code': 200}}}" ]
+      }, {
+        "name" : "test_03_login[urldata5]",
+        "uid" : "e4c85d3fe599e658",
+        "parentUid" : "197135087231d7b456543ab53b9e663a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642771119328,
+          "stop" : 1642771119356,
+          "duration" : 28
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'name': '门禁记录查看更多-部门下拉选项', 'request': {'method': 'get', 'HOST': 'http://47.108.217.193:8892', 'url': '/dp/depts', 'data': {'tunnelId': 1}}, 'validdate': {'equals': {'status_code': 200}}}" ]
+      }, {
+        "name" : "test_03_login[urldata8]",
+        "uid" : "beff2d82b969a2b6",
+        "parentUid" : "197135087231d7b456543ab53b9e663a",
+        "status" : "failed",
+        "time" : {
+          "start" : 1642771119478,
+          "stop" : 1642771119503,
+          "duration" : 25
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'name': '查看门禁记录,type=1查看人员门禁记录，type=2查看车辆门禁记录', 'request': {'method': 'get', 'HOST': 'http://47.108.217.193:8892', 'url': '/dp/getExitRecord', 'data': {'current': '1,', 'limit': '10,', 'tunnelId': '1,', 'type': 2}}, 'validdate': {'equals': {'status_code': 200}}}" ]
+      }, {
+        "name" : "test_03_login[urldata2]",
+        "uid" : "1cfda90224e054e",
+        "parentUid" : "197135087231d7b456543ab53b9e663a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642771119211,
+          "stop" : 1642771119235,
+          "duration" : 24
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'name': '大屏人员实名制统计(各部门人员统计)', 'request': {'method': 'get', 'HOST': 'http://47.108.217.193:8892', 'url': '/dp/employerStat', 'data': {'tunnelId': 1}}, 'validdate': {'equals': {'status_code': 200}}}" ]
+      } ],
+      "uid" : "197135087231d7b456543ab53b9e663a"
+    }, {
+      "name" : "10128-MainThread",
+      "children" : [ {
+        "name" : "test_03_login[urldata3]",
+        "uid" : "1cf4253b82529746",
+        "parentUid" : "32e40ea9b3eb7e5d37b93b42ef70c4ed",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642768430623,
+          "stop" : 1642768430654,
+          "duration" : 31
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'name': '实名制人员管理查看更多-按部门分组', 'request': {'method': 'get', 'HOST': 'http://47.108.217.193:8892', 'url': '/dp/allEmployers', 'data': {'tunnelId': '1,', 'name': '王'}}, 'validdate': {'equals': {'status_code': 200}}}" ]
+      }, {
+        "name" : "test_03_login[urldata9]",
+        "uid" : "df97bcc2ce37d92b",
+        "parentUid" : "32e40ea9b3eb7e5d37b93b42ef70c4ed",
+        "status" : "failed",
+        "time" : {
+          "start" : 1642768430881,
+          "stop" : 1642768430910,
+          "duration" : 29
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'name': '3D 定位区域数据', 'request': {'method': 'get', 'HOST': 'http://47.108.217.193:8892', 'url': '/dp/regionLocation3D', 'data': {'tunnelId': 1}}, 'validdate': {'equals': {'status_code': 200}}}" ]
+      }, {
+        "name" : "test_03_login[urldata16]",
+        "uid" : "d7a5e5da4ca694ad",
+        "parentUid" : "32e40ea9b3eb7e5d37b93b42ef70c4ed",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642768431202,
+          "stop" : 1642768431249,
+          "duration" : 47
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'name': '获取空压机设备列表', 'request': {'method': 'get', 'HOST': 'http://47.108.217.193:8892', 'url': '/dp/compressorList', 'data': {'direction': 'right,', 'duan': 'exit,', 'tunnelId': 1}}, 'validdate': {'equals': {'status_code': 200}}}" ]
+      }, {
+        "name" : "test_03_login[urldata5]",
+        "uid" : "f4e3cd4ddc1b3ed",
+        "parentUid" : "32e40ea9b3eb7e5d37b93b42ef70c4ed",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642768430727,
+          "stop" : 1642768430753,
+          "duration" : 26
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'name': '门禁记录查看更多-部门下拉选项', 'request': {'method': 'get', 'HOST': 'http://47.108.217.193:8892', 'url': '/dp/depts', 'data': {'tunnelId': 1}}, 'validdate': {'equals': {'status_code': 200}}}" ]
+      }, {
+        "name" : "test_03_login[urldata13]",
+        "uid" : "82815ef9b108fc58",
+        "parentUid" : "32e40ea9b3eb7e5d37b93b42ef70c4ed",
+        "status" : "failed",
+        "time" : {
+          "start" : 1642768431067,
+          "stop" : 1642768431097,
+          "duration" : 30
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'name': '获取进度柱形统计图数据，参数为左右洞和时间范围，默认时间范围近七天;左洞left/右洞right;进口端enter/出口端exit', 'request': {'method': 'get', 'HOST': 'http://47.108.217.193:8892', 'url': '/dp/getJcLine', 'data': {'direction': 'left,', 'duan': 'enter,', 'tunnelId': 1}}, 'validdate': {'equals': {'status_code': 200}}}" ]
+      }, {
+        "name" : "test_03_login[urldata0]",
+        "uid" : "d038cbaf3dce3f13",
+        "parentUid" : "32e40ea9b3eb7e5d37b93b42ef70c4ed",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642768430300,
+          "stop" : 1642768430330,
+          "duration" : 30
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'name': '大屏登录', 'request': {'method': 'post', 'HOST': 'http://47.108.217.193:8892', 'url': '/dp/login', 'data': {'username': 'admin', 'password': 111111}}, 'validdate': {'equals': {'status_code': 200}}}" ]
+      }, {
+        "name" : "test_03_login[urldata7]",
+        "uid" : "de4b15ac0927b0d2",
+        "parentUid" : "32e40ea9b3eb7e5d37b93b42ef70c4ed",
+        "status" : "failed",
+        "time" : {
+          "start" : 1642768430797,
+          "stop" : 1642768430821,
+          "duration" : 24
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'name': '查看门禁记录,type=1查看人员门禁记录，type=2查看车辆门禁记录', 'request': {'method': 'get', 'HOST': 'http://47.108.217.193:8892', 'url': '/dp/getExitRecord', 'data': {'current': '1,', 'limit': '10,', 'tunnelId': '1,', 'type': 1}}, 'validdate': {'equals': {'status_code': 200}}}" ]
+      }, {
+        "name" : "test_01_sysTime[common2]",
+        "uid" : "bf530bb6c8698732",
+        "parentUid" : "32e40ea9b3eb7e5d37b93b42ef70c4ed",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642768430259,
+          "stop" : 1642768430292,
+          "duration" : 33
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'name': '项目列表', 'request': {'method': 'get', 'HOST': 'http://47.108.217.193:8892', 'url': '/dp/projectList'}, 'validdate': {'equals': {'status_code': 200}}}" ]
+      }, {
+        "name" : "test_01_sysTime[common0]",
+        "uid" : "9b8b3169f03d581d",
+        "parentUid" : "32e40ea9b3eb7e5d37b93b42ef70c4ed",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642768430162,
+          "stop" : 1642768430198,
+          "duration" : 36
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'name': '获取系统时间', 'request': {'method': 'get', 'HOST': 'http://47.108.217.193:8892', 'url': '/dp/sysTime'}, 'validdate': {'equals': {'status_code': 200}}}" ]
+      }, {
+        "name" : "test_03_login[urldata2]",
+        "uid" : "7d04fa773157cdc2",
+        "parentUid" : "32e40ea9b3eb7e5d37b93b42ef70c4ed",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642768430564,
+          "stop" : 1642768430610,
+          "duration" : 46
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'name': '大屏人员实名制统计(各部门人员统计)', 'request': {'method': 'get', 'HOST': 'http://47.108.217.193:8892', 'url': '/dp/employerStat', 'data': {'tunnelId': 1}}, 'validdate': {'equals': {'status_code': 200}}}" ]
+      }, {
+        "name" : "test_03_login[urldata10]",
+        "uid" : "c14c6eee0f42a495",
+        "parentUid" : "32e40ea9b3eb7e5d37b93b42ef70c4ed",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642768430923,
+          "stop" : 1642768430950,
+          "duration" : 27
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'name': '获取播放流地址', 'request': {'method': 'get', 'HOST': 'http://47.108.217.193:8892', 'url': '/dp/getVideoStream', 'data': {'tunnelId': 1}}, 'validdate': {'equals': {'status_code': 200}}}" ]
+      }, {
+        "name" : "test_03_login[urldata1]",
+        "uid" : "f1cff607029dc50d",
+        "parentUid" : "32e40ea9b3eb7e5d37b93b42ef70c4ed",
+        "status" : "failed",
+        "time" : {
+          "start" : 1642768430339,
+          "stop" : 1642768430376,
+          "duration" : 37
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'name': '隧道列表', 'request': {'method': 'get', 'HOST': 'http://47.108.217.193:8892', 'url': '/dp/tunnelList', 'data': {'proId': 1}}, 'validdate': {'equals': {'status_code': 200}}}" ]
+      }, {
+        "name" : "test_03_login[urldata4]",
+        "uid" : "24407adf857db5b6",
+        "parentUid" : "32e40ea9b3eb7e5d37b93b42ef70c4ed",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642768430666,
+          "stop" : 1642768430719,
+          "duration" : 53
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'name': '单个员工详情', 'request': {'method': 'get', 'HOST': 'http://47.108.217.193:8892', 'url': '/dp/employerDetail', 'data': {'id': 143}}, 'validdate': {'equals': {'status_code': 200}}}" ]
+      }, {
+        "name" : "test_03_login[urldata6]",
+        "uid" : "40d03e5fc778e784",
+        "parentUid" : "32e40ea9b3eb7e5d37b93b42ef70c4ed",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642768430760,
+          "stop" : 1642768430786,
+          "duration" : 26
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'name': '门禁记录查看更多-车辆类型下拉选项', 'request': {'method': 'get', 'HOST': 'http://47.108.217.193:8892', 'url': '/dp/carTypes', 'data': {'tunnelId': 1}}, 'validdate': {'equals': {'status_code': 200}}}" ]
+      }, {
+        "name" : "test_03_login[urldata15]",
+        "uid" : "f2f1be8853063be2",
+        "parentUid" : "32e40ea9b3eb7e5d37b93b42ef70c4ed",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642768431164,
+          "stop" : 1642768431195,
+          "duration" : 31
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'name': '获取风机设备列表', 'request': {'method': 'get', 'HOST': 'http://47.108.217.193:8892', 'url': '/dp/fanList', 'data': {'direction': 'right,', 'duan': 'exit,', 'tunnelId': 1}}, 'validdate': {'equals': {'status_code': 200}}}" ]
+      }, {
+        "name" : "test_01_sysTime[common1]",
+        "uid" : "463ebe88a2e02fa5",
+        "parentUid" : "32e40ea9b3eb7e5d37b93b42ef70c4ed",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642768430215,
+          "stop" : 1642768430250,
+          "duration" : 35
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'name': '获取天气', 'request': {'method': 'get', 'HOST': 'http://47.108.217.193:8892', 'url': '/dp/weather'}, 'validdate': {'equals': {'status_code': 200}}}" ]
+      }, {
+        "name" : "test_03_login[urldata11]",
+        "uid" : "462fe37b478adcb",
+        "parentUid" : "32e40ea9b3eb7e5d37b93b42ef70c4ed",
+        "status" : "failed",
+        "time" : {
+          "start" : 1642768430955,
+          "stop" : 1642768430984,
+          "duration" : 29
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'name': '各位置最新进尺信息', 'request': {'method': 'get', 'HOST': 'http://47.108.217.193:8892', 'url': '/dp/jinchiInfo', 'data': {'tunnelId': 1}}, 'validdate': {'equals': {'status_code': 200}}}" ]
+      }, {
+        "name" : "test_03_login[urldata8]",
+        "uid" : "87a4654f708df6ce",
+        "parentUid" : "32e40ea9b3eb7e5d37b93b42ef70c4ed",
+        "status" : "failed",
+        "time" : {
+          "start" : 1642768430842,
+          "stop" : 1642768430868,
+          "duration" : 26
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'name': '查看门禁记录,type=1查看人员门禁记录，type=2查看车辆门禁记录', 'request': {'method': 'get', 'HOST': 'http://47.108.217.193:8892', 'url': '/dp/getExitRecord', 'data': {'current': '1,', 'limit': '10,', 'tunnelId': '1,', 'type': 2}}, 'validdate': {'equals': {'status_code': 200}}}" ]
+      }, {
+        "name" : "test_03_login[urldata12]",
+        "uid" : "d9e6303a49695368",
+        "parentUid" : "32e40ea9b3eb7e5d37b93b42ef70c4ed",
+        "status" : "failed",
+        "time" : {
+          "start" : 1642768430999,
+          "stop" : 1642768431029,
+          "duration" : 30
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'name': '获取进度统计柱形图的时间范围下拉数据', 'request': {'method': 'get', 'HOST': 'http://47.108.217.193:8892', 'url': '/dp/jcLineQueryRange', 'data': {'tunnelId': 1}}, 'validdate': {'equals': {'status_code': 200}}}" ]
+      }, {
+        "name" : "test_03_login[urldata14]",
+        "uid" : "bde58701e91f781b",
+        "parentUid" : "32e40ea9b3eb7e5d37b93b42ef70c4ed",
+        "status" : "failed",
+        "time" : {
+          "start" : 1642768431116,
+          "stop" : 1642768431148,
+          "duration" : 32
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'name': '获取进度柱形统计图数据，参数为左右洞和时间范围，默认时间范围近七天;左洞left/右洞right;进口端enter/出口端exit', 'request': {'method': 'get', 'HOST': 'http://47.108.217.193:8892', 'url': '/dp/getJcLine', 'data': {'direction': 'right,', 'duan': 'exit,', 'tunnelId': 1}}, 'validdate': {'equals': {'status_code': 200}}}" ]
+      } ],
+      "uid" : "32e40ea9b3eb7e5d37b93b42ef70c4ed"
+    }, {
+      "name" : "14312-MainThread",
+      "children" : [ {
+        "name" : "test_03_login[urldata5]",
+        "uid" : "c3e6d38cbbf00c42",
+        "parentUid" : "91053b8b7eec6291e04e6c9e4fc792e5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642776358117,
+          "stop" : 1642776358140,
+          "duration" : 23
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 7,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'name': '门禁记录查看更多-部门下拉选项', 'request': {'method': 'get', 'HOST': 'http://47.108.217.193:8892', 'url': '/dp/depts', 'data': {'tunnelId': 1}}, 'validdate': {'equals': {'status_code': 200}}}" ]
+      }, {
+        "name" : "test_03_login[urldata15]",
+        "uid" : "7b2dcee06fe10765",
+        "parentUid" : "91053b8b7eec6291e04e6c9e4fc792e5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642776358524,
+          "stop" : 1642776358549,
+          "duration" : 25
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 7,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'name': '获取风机设备列表', 'request': {'method': 'get', 'HOST': 'http://47.108.217.193:8892', 'url': '/dp/fanList', 'data': {'direction': 'right,', 'duan': 'exit,', 'tunnelId': 1}}, 'validdate': {'equals': {'status_code': 200}}}" ]
+      }, {
+        "name" : "test_03_login[urldata3]",
+        "uid" : "9edf9378925daf8f",
+        "parentUid" : "91053b8b7eec6291e04e6c9e4fc792e5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642776358045,
+          "stop" : 1642776358085,
+          "duration" : 40
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 7,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'name': '实名制人员管理查看更多-按部门分组', 'request': {'method': 'get', 'HOST': 'http://47.108.217.193:8892', 'url': '/dp/allEmployers', 'data': {'tunnelId': '1,', 'name': '王'}}, 'validdate': {'equals': {'status_code': 200}}}" ]
+      }, {
+        "name" : "test_03_login[urldata13]",
+        "uid" : "4917563e6be8e9f1",
+        "parentUid" : "91053b8b7eec6291e04e6c9e4fc792e5",
+        "status" : "failed",
+        "time" : {
+          "start" : 1642776358448,
+          "stop" : 1642776358472,
+          "duration" : 24
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 7,
+        "retriesStatusChange" : true,
+        "parameters" : [ "{'name': '获取进度柱形统计图数据，参数为左右洞和时间范围，默认时间范围近七天;左洞left/右洞right;进口端enter/出口端exit', 'request': {'method': 'get', 'HOST': 'http://47.108.217.193:8892', 'url': '/dp/getJcLine', 'data': {'direction': 'left,', 'duan': 'enter,', 'tunnelId': 1}}, 'validdate': {'equals': {'status_code': 200}}}" ]
+      }, {
+        "name" : "test_03_login[urldata7]",
+        "uid" : "3e10a92388b903ad",
+        "parentUid" : "91053b8b7eec6291e04e6c9e4fc792e5",
+        "status" : "failed",
+        "time" : {
+          "start" : 1642776358180,
+          "stop" : 1642776358207,
+          "duration" : 27
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 7,
+        "retriesStatusChange" : true,
+        "parameters" : [ "{'name': '查看门禁记录,type=1查看人员门禁记录，type=2查看车辆门禁记录', 'request': {'method': 'get', 'HOST': 'http://47.108.217.193:8892', 'url': '/dp/getExitRecord', 'data': {'current': '1,', 'limit': '10,', 'tunnelId': '1,', 'type': 1}}, 'validdate': {'equals': {'status_code': 200}}}" ]
+      }, {
+        "name" : "test_03_login[urldata2]",
+        "uid" : "8d7f1a409b178f14",
+        "parentUid" : "91053b8b7eec6291e04e6c9e4fc792e5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642776358009,
+          "stop" : 1642776358039,
+          "duration" : 30
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 7,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'name': '大屏人员实名制统计(各部门人员统计)', 'request': {'method': 'get', 'HOST': 'http://47.108.217.193:8892', 'url': '/dp/employerStat', 'data': {'tunnelId': 1}}, 'validdate': {'equals': {'status_code': 200}}}" ]
+      }, {
+        "name" : "test_03_login[urldata16]",
+        "uid" : "a25ab38dd974f5da",
+        "parentUid" : "91053b8b7eec6291e04e6c9e4fc792e5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642776358555,
+          "stop" : 1642776358576,
+          "duration" : 21
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 7,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'name': '获取空压机设备列表', 'request': {'method': 'get', 'HOST': 'http://47.108.217.193:8892', 'url': '/dp/compressorList', 'data': {'direction': 'right,', 'duan': 'exit,', 'tunnelId': 1}}, 'validdate': {'equals': {'status_code': 200}}}" ]
+      }, {
+        "name" : "test_01_sysTime[common1]",
+        "uid" : "52455d653e8e4ace",
+        "parentUid" : "91053b8b7eec6291e04e6c9e4fc792e5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642776357775,
+          "stop" : 1642776357794,
+          "duration" : 19
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 7,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'name': '获取天气', 'request': {'method': 'get', 'HOST': 'http://47.108.217.193:8892', 'url': '/dp/weather'}, 'validdate': {'equals': {'status_code': 200}}}" ]
+      }, {
+        "name" : "test_01_sysTime[common0]",
+        "uid" : "7a31f19cc5d76d94",
+        "parentUid" : "91053b8b7eec6291e04e6c9e4fc792e5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642776357741,
+          "stop" : 1642776357770,
+          "duration" : 29
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 7,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'name': '获取系统时间', 'request': {'method': 'get', 'HOST': 'http://47.108.217.193:8892', 'url': '/dp/sysTime'}, 'validdate': {'equals': {'status_code': 200}}}" ]
+      }, {
+        "name" : "test_03_login[urldata4]",
+        "uid" : "61ae721d31e22c6f",
+        "parentUid" : "91053b8b7eec6291e04e6c9e4fc792e5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642776358091,
+          "stop" : 1642776358111,
+          "duration" : 20
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 7,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'name': '单个员工详情', 'request': {'method': 'get', 'HOST': 'http://47.108.217.193:8892', 'url': '/dp/employerDetail', 'data': {'id': 143}}, 'validdate': {'equals': {'status_code': 200}}}" ]
+      }, {
+        "name" : "test_03_login[urldata10]",
+        "uid" : "f228f078dd3f24ff",
+        "parentUid" : "91053b8b7eec6291e04e6c9e4fc792e5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642776358319,
+          "stop" : 1642776358342,
+          "duration" : 23
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 7,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'name': '获取播放流地址', 'request': {'method': 'get', 'HOST': 'http://47.108.217.193:8892', 'url': '/dp/getVideoStream', 'data': {'tunnelId': 1}}, 'validdate': {'equals': {'status_code': 200}}}" ]
+      }, {
+        "name" : "test_03_login[urldata6]",
+        "uid" : "4a5edf99bfa453f3",
+        "parentUid" : "91053b8b7eec6291e04e6c9e4fc792e5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642776358149,
+          "stop" : 1642776358174,
+          "duration" : 25
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 7,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'name': '门禁记录查看更多-车辆类型下拉选项', 'request': {'method': 'get', 'HOST': 'http://47.108.217.193:8892', 'url': '/dp/carTypes', 'data': {'tunnelId': 1}}, 'validdate': {'equals': {'status_code': 200}}}" ]
+      }, {
+        "name" : "test_01_sysTime[common2]",
+        "uid" : "fff56b473f6c17ed",
+        "parentUid" : "91053b8b7eec6291e04e6c9e4fc792e5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642776357799,
+          "stop" : 1642776357827,
+          "duration" : 28
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 7,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'name': '项目列表', 'request': {'method': 'get', 'HOST': 'http://47.108.217.193:8892', 'url': '/dp/projectList'}, 'validdate': {'equals': {'status_code': 200}}}" ]
+      }, {
+        "name" : "test_03_login[urldata11]",
+        "uid" : "e59f5cebce799c65",
+        "parentUid" : "91053b8b7eec6291e04e6c9e4fc792e5",
+        "status" : "failed",
+        "time" : {
+          "start" : 1642776358351,
+          "stop" : 1642776358380,
+          "duration" : 29
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 7,
+        "retriesStatusChange" : true,
+        "parameters" : [ "{'name': '各位置最新进尺信息', 'request': {'method': 'get', 'HOST': 'http://47.108.217.193:8892', 'url': '/dp/jinchiInfo', 'data': {'tunnelId': 1}}, 'validdate': {'equals': {'status_code': 200}}}" ]
+      }, {
+        "name" : "test_03_login[urldata12]",
+        "uid" : "d11710948e590e9d",
+        "parentUid" : "91053b8b7eec6291e04e6c9e4fc792e5",
+        "status" : "failed",
+        "time" : {
+          "start" : 1642776358395,
+          "stop" : 1642776358427,
+          "duration" : 32
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 7,
+        "retriesStatusChange" : true,
+        "parameters" : [ "{'name': '获取进度统计柱形图的时间范围下拉数据', 'request': {'method': 'get', 'HOST': 'http://47.108.217.193:8892', 'url': '/dp/jcLineQueryRange', 'data': {'tunnelId': 1}}, 'validdate': {'equals': {'status_code': 200}}}" ]
+      }, {
+        "name" : "test_03_login[urldata14]",
+        "uid" : "aa26a16fbeb92d2a",
+        "parentUid" : "91053b8b7eec6291e04e6c9e4fc792e5",
+        "status" : "failed",
+        "time" : {
+          "start" : 1642776358486,
+          "stop" : 1642776358507,
+          "duration" : 21
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 7,
+        "retriesStatusChange" : true,
+        "parameters" : [ "{'name': '获取进度柱形统计图数据，参数为左右洞和时间范围，默认时间范围近七天;左洞left/右洞right;进口端enter/出口端exit', 'request': {'method': 'get', 'HOST': 'http://47.108.217.193:8892', 'url': '/dp/getJcLine', 'data': {'direction': 'right,', 'duan': 'exit,', 'tunnelId': 1}}, 'validdate': {'equals': {'status_code': 200}}}" ]
+      }, {
+        "name" : "test_03_login[urldata9]",
+        "uid" : "22d34c05d40b22a6",
+        "parentUid" : "91053b8b7eec6291e04e6c9e4fc792e5",
+        "status" : "failed",
+        "time" : {
+          "start" : 1642776358271,
+          "stop" : 1642776358296,
+          "duration" : 25
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 7,
+        "retriesStatusChange" : true,
+        "parameters" : [ "{'name': '3D 定位区域数据', 'request': {'method': 'get', 'HOST': 'http://47.108.217.193:8892', 'url': '/dp/regionLocation3D', 'data': {'tunnelId': 1}}, 'validdate': {'equals': {'status_code': 200}}}" ]
+      }, {
+        "name" : "test_03_login[urldata0]",
+        "uid" : "982b19f7b54c537d",
+        "parentUid" : "91053b8b7eec6291e04e6c9e4fc792e5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642776357832,
+          "stop" : 1642776357853,
+          "duration" : 21
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 7,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'name': '大屏登录', 'request': {'method': 'post', 'HOST': 'http://47.108.217.193:8892', 'url': '/dp/login', 'data': {'username': 'admin', 'password': 111111}}, 'validdate': {'equals': {'status_code': 200}}}" ]
+      }, {
+        "name" : "test_03_login[urldata8]",
+        "uid" : "bebdda8b829cfa49",
+        "parentUid" : "91053b8b7eec6291e04e6c9e4fc792e5",
+        "status" : "failed",
+        "time" : {
+          "start" : 1642776358224,
+          "stop" : 1642776358250,
+          "duration" : 26
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 7,
+        "retriesStatusChange" : true,
+        "parameters" : [ "{'name': '查看门禁记录,type=1查看人员门禁记录，type=2查看车辆门禁记录', 'request': {'method': 'get', 'HOST': 'http://47.108.217.193:8892', 'url': '/dp/getExitRecord', 'data': {'current': '1,', 'limit': '10,', 'tunnelId': '1,', 'type': 2}}, 'validdate': {'equals': {'status_code': 200}}}" ]
+      }, {
+        "name" : "test_03_login[urldata1]",
+        "uid" : "ae5f8573218762ec",
+        "parentUid" : "91053b8b7eec6291e04e6c9e4fc792e5",
+        "status" : "failed",
+        "time" : {
+          "start" : 1642776357858,
+          "stop" : 1642776357883,
+          "duration" : 25
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 7,
+        "retriesStatusChange" : true,
+        "parameters" : [ "{'name': '隧道列表', 'request': {'method': 'get', 'HOST': 'http://47.108.217.193:8892', 'url': '/dp/tunnelList', 'data': {'proId': 1}}, 'validdate': {'equals': {'status_code': 200}}}" ]
+      } ],
+      "uid" : "91053b8b7eec6291e04e6c9e4fc792e5"
+    }, {
+      "name" : "7184-MainThread",
+      "children" : [ {
+        "name" : "test_03_login[urldata14]",
+        "uid" : "4cdf7cea4bd76d0",
+        "parentUid" : "155b4d800c00a0c2e20e16e4c7ebc5df",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642079862593,
+          "stop" : 1642079862618,
+          "duration" : 25
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'name': '获取进度柱形统计图数据，参数为左右洞和时间范围，默认时间范围近七天;左洞left/右洞right;进口端enter/出口端exit', 'request': {'method': 'get', 'HOST': 'http://47.108.217.193:8892', 'url': '/dp/getJcLine', 'data': {'direction': 'right,', 'duan': 'exit,', 'tunnelId': 1}}, 'validdate': {'equals': {'status_code': 200}}}" ]
+      }, {
+        "name" : "test_03_login[urldata7]",
+        "uid" : "2da867fca64842bd",
+        "parentUid" : "155b4d800c00a0c2e20e16e4c7ebc5df",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642079862332,
+          "stop" : 1642079862354,
+          "duration" : 22
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'name': '查看门禁记录,type=1查看人员门禁记录，type=2查看车辆门禁记录', 'request': {'method': 'get', 'HOST': 'http://47.108.217.193:8892', 'url': '/dp/getExitRecord', 'data': {'current': '1,', 'limit': '10,', 'tunnelId': '1,', 'type': 1}}, 'validdate': {'equals': {'status_code': 200}}}" ]
+      }, {
+        "name" : "test_03_login[urldata4]",
+        "uid" : "331575de2b197dfe",
+        "parentUid" : "155b4d800c00a0c2e20e16e4c7ebc5df",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642079862226,
+          "stop" : 1642079862259,
+          "duration" : 33
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'name': '单个员工详情', 'request': {'method': 'get', 'HOST': 'http://47.108.217.193:8892', 'url': '/dp/employerDetail', 'data': {'id': 143}}, 'validdate': {'equals': {'status_code': 200}}}" ]
+      }, {
+        "name" : "test_03_login[urldata2]",
+        "uid" : "a17e13bec5d8c3f9",
+        "parentUid" : "155b4d800c00a0c2e20e16e4c7ebc5df",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642079862143,
+          "stop" : 1642079862179,
+          "duration" : 36
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'name': '大屏人员实名制统计(各部门人员统计)', 'request': {'method': 'get', 'HOST': 'http://47.108.217.193:8892', 'url': '/dp/employerStat', 'data': {'tunnelId': 1}}, 'validdate': {'equals': {'status_code': 200}}}" ]
+      }, {
+        "name" : "test_03_login[urldata16]",
+        "uid" : "d364e9a93d59e3d9",
+        "parentUid" : "155b4d800c00a0c2e20e16e4c7ebc5df",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642079862660,
+          "stop" : 1642079862688,
+          "duration" : 28
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'name': '获取空压机设备列表', 'request': {'method': 'get', 'HOST': 'http://47.108.217.193:8892', 'url': '/dp/compressorList', 'data': {'direction': 'right,', 'duan': 'exit,', 'tunnelId': 1}}, 'validdate': {'equals': {'status_code': 200}}}" ]
+      }, {
+        "name" : "test_03_login[urldata3]",
+        "uid" : "54d8c9242acdc87f",
+        "parentUid" : "155b4d800c00a0c2e20e16e4c7ebc5df",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642079862187,
+          "stop" : 1642079862217,
+          "duration" : 30
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'name': '实名制人员管理查看更多-按部门分组', 'request': {'method': 'get', 'HOST': 'http://47.108.217.193:8892', 'url': '/dp/allEmployers', 'data': {'tunnelId': '1,', 'name': '王'}}, 'validdate': {'equals': {'status_code': 200}}}" ]
+      }, {
+        "name" : "test_03_login[urldata10]",
+        "uid" : "b16b1a777d8914fc",
+        "parentUid" : "155b4d800c00a0c2e20e16e4c7ebc5df",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642079862473,
+          "stop" : 1642079862499,
+          "duration" : 26
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'name': '获取播放流地址', 'request': {'method': 'get', 'HOST': 'http://47.108.217.193:8892', 'url': '/dp/getVideoStream', 'data': {'tunnelId': 1}}, 'validdate': {'equals': {'status_code': 200}}}" ]
+      }, {
+        "name" : "test_03_login[urldata0]",
+        "uid" : "63769440bced64ec",
+        "parentUid" : "155b4d800c00a0c2e20e16e4c7ebc5df",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642079862058,
+          "stop" : 1642079862095,
+          "duration" : 37
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'name': '大屏登录', 'request': {'method': 'post', 'HOST': 'http://47.108.217.193:8892', 'url': '/dp/login', 'data': {'username': 'admin', 'password': 111111}}, 'validdate': {'equals': {'status_code': 200}}}" ]
+      }, {
+        "name" : "test_03_login[urldata8]",
+        "uid" : "b241c2730f835473",
+        "parentUid" : "155b4d800c00a0c2e20e16e4c7ebc5df",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642079862364,
+          "stop" : 1642079862422,
+          "duration" : 58
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'name': '查看门禁记录,type=1查看人员门禁记录，type=2查看车辆门禁记录', 'request': {'method': 'get', 'HOST': 'http://47.108.217.193:8892', 'url': '/dp/getExitRecord', 'data': {'current': '1,', 'limit': '10,', 'tunnelId': '1,', 'type': 2}}, 'validdate': {'equals': {'status_code': 200}}}" ]
+      }, {
+        "name" : "test_03_login[urldata12]",
+        "uid" : "3ccb69a6279a90df",
+        "parentUid" : "155b4d800c00a0c2e20e16e4c7ebc5df",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642079862532,
+          "stop" : 1642079862552,
+          "duration" : 20
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'name': '获取进度统计柱形图的时间范围下拉数据', 'request': {'method': 'get', 'HOST': 'http://47.108.217.193:8892', 'url': '/dp/jcLineQueryRange', 'data': {'tunnelId': 1}}, 'validdate': {'equals': {'status_code': 200}}}" ]
+      }, {
+        "name" : "test_01_sysTime[common1]",
+        "uid" : "fabf3c034573f977",
+        "parentUid" : "155b4d800c00a0c2e20e16e4c7ebc5df",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642079861976,
+          "stop" : 1642079862000,
+          "duration" : 24
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'name': '获取天气', 'request': {'method': 'get', 'HOST': 'http://47.108.217.193:8892', 'url': '/dp/weather'}, 'validdate': {'equals': {'status_code': 200}}}" ]
+      }, {
+        "name" : "test_03_login[urldata13]",
+        "uid" : "e6d53bdea29b10af",
+        "parentUid" : "155b4d800c00a0c2e20e16e4c7ebc5df",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642079862557,
+          "stop" : 1642079862585,
+          "duration" : 28
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'name': '获取进度柱形统计图数据，参数为左右洞和时间范围，默认时间范围近七天;左洞left/右洞right;进口端enter/出口端exit', 'request': {'method': 'get', 'HOST': 'http://47.108.217.193:8892', 'url': '/dp/getJcLine', 'data': {'direction': 'left,', 'duan': 'enter,', 'tunnelId': 1}}, 'validdate': {'equals': {'status_code': 200}}}" ]
+      }, {
+        "name" : "test_03_login[urldata6]",
+        "uid" : "87adcf519dd3c206",
+        "parentUid" : "155b4d800c00a0c2e20e16e4c7ebc5df",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642079862301,
+          "stop" : 1642079862323,
+          "duration" : 22
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'name': '门禁记录查看更多-车辆类型下拉选项', 'request': {'method': 'get', 'HOST': 'http://47.108.217.193:8892', 'url': '/dp/carTypes', 'data': {'tunnelId': 1}}, 'validdate': {'equals': {'status_code': 200}}}" ]
+      }, {
+        "name" : "test_03_login[urldata9]",
+        "uid" : "c502f82780c4543e",
+        "parentUid" : "155b4d800c00a0c2e20e16e4c7ebc5df",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642079862431,
+          "stop" : 1642079862465,
+          "duration" : 34
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'name': '3D 定位区域数据', 'request': {'method': 'get', 'HOST': 'http://47.108.217.193:8892', 'url': '/dp/regionLocation3D', 'data': {'tunnelId': 1}}, 'validdate': {'equals': {'status_code': 200}}}" ]
+      }, {
+        "name" : "test_03_login[urldata15]",
+        "uid" : "5a63741e4b9304ac",
+        "parentUid" : "155b4d800c00a0c2e20e16e4c7ebc5df",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642079862624,
+          "stop" : 1642079862649,
+          "duration" : 25
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'name': '获取风机设备列表', 'request': {'method': 'get', 'HOST': 'http://47.108.217.193:8892', 'url': '/dp/fanList', 'data': {'direction': 'right,', 'duan': 'exit,', 'tunnelId': 1}}, 'validdate': {'equals': {'status_code': 200}}}" ]
+      }, {
+        "name" : "test_03_login[urldata11]",
+        "uid" : "bc51303fb58adee2",
+        "parentUid" : "155b4d800c00a0c2e20e16e4c7ebc5df",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642079862506,
+          "stop" : 1642079862527,
+          "duration" : 21
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'name': '各位置最新进尺信息', 'request': {'method': 'get', 'HOST': 'http://47.108.217.193:8892', 'url': '/dp/jinchiInfo', 'data': {'tunnelId': 1}}, 'validdate': {'equals': {'status_code': 200}}}" ]
+      }, {
+        "name" : "test_03_login[urldata5]",
+        "uid" : "69917cf53cdd21b2",
+        "parentUid" : "155b4d800c00a0c2e20e16e4c7ebc5df",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642079862265,
+          "stop" : 1642079862294,
+          "duration" : 29
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'name': '门禁记录查看更多-部门下拉选项', 'request': {'method': 'get', 'HOST': 'http://47.108.217.193:8892', 'url': '/dp/depts', 'data': {'tunnelId': 1}}, 'validdate': {'equals': {'status_code': 200}}}" ]
+      }, {
+        "name" : "test_01_sysTime[common2]",
+        "uid" : "fe48a935e402ba9b",
+        "parentUid" : "155b4d800c00a0c2e20e16e4c7ebc5df",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642079862009,
+          "stop" : 1642079862049,
+          "duration" : 40
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'name': '项目列表', 'request': {'method': 'get', 'HOST': 'http://47.108.217.193:8892', 'url': '/dp/projectList'}, 'validdate': {'equals': {'status_code': 200}}}" ]
+      }, {
+        "name" : "test_03_login[urldata1]",
+        "uid" : "d550c3e24578f84d",
+        "parentUid" : "155b4d800c00a0c2e20e16e4c7ebc5df",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642079862104,
+          "stop" : 1642079862135,
+          "duration" : 31
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'name': '隧道列表', 'request': {'method': 'get', 'HOST': 'http://47.108.217.193:8892', 'url': '/dp/tunnelList', 'data': {'proId': 1}}, 'validdate': {'equals': {'status_code': 200}}}" ]
+      }, {
+        "name" : "test_01_sysTime[common0]",
+        "uid" : "83b713040ce188b5",
+        "parentUid" : "155b4d800c00a0c2e20e16e4c7ebc5df",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642079861931,
+          "stop" : 1642079861969,
+          "duration" : 38
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'name': '获取系统时间', 'request': {'method': 'get', 'HOST': 'http://47.108.217.193:8892', 'url': '/dp/sysTime'}, 'validdate': {'equals': {'status_code': 200}}}" ]
+      } ],
+      "uid" : "155b4d800c00a0c2e20e16e4c7ebc5df"
+    }, {
+      "name" : "1064-MainThread",
+      "children" : [ {
+        "name" : "test_03_login[urldata9]",
+        "uid" : "38997eafae36e11a",
+        "parentUid" : "57f15d3c9bdd019cab0d5509d9dcc103",
+        "status" : "failed",
+        "time" : {
+          "start" : 1642768516215,
+          "stop" : 1642768516247,
+          "duration" : 32
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'name': '3D 定位区域数据', 'request': {'method': 'get', 'HOST': 'http://47.108.217.193:8892', 'url': '/dp/regionLocation3D', 'data': {'tunnelId': 1}}, 'validdate': {'equals': {'status_code': 200}}}" ]
+      }, {
+        "name" : "test_03_login[urldata10]",
+        "uid" : "169c0624198c960b",
+        "parentUid" : "57f15d3c9bdd019cab0d5509d9dcc103",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642768516274,
+          "stop" : 1642768516297,
+          "duration" : 23
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'name': '获取播放流地址', 'request': {'method': 'get', 'HOST': 'http://47.108.217.193:8892', 'url': '/dp/getVideoStream', 'data': {'tunnelId': 1}}, 'validdate': {'equals': {'status_code': 200}}}" ]
+      }, {
+        "name" : "test_03_login[urldata15]",
+        "uid" : "2a0e988a528cf768",
+        "parentUid" : "57f15d3c9bdd019cab0d5509d9dcc103",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642768516467,
+          "stop" : 1642768516489,
+          "duration" : 22
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'name': '获取风机设备列表', 'request': {'method': 'get', 'HOST': 'http://47.108.217.193:8892', 'url': '/dp/fanList', 'data': {'direction': 'right,', 'duan': 'exit,', 'tunnelId': 1}}, 'validdate': {'equals': {'status_code': 200}}}" ]
+      }, {
+        "name" : "test_03_login[urldata0]",
+        "uid" : "e54f9f12bed96275",
+        "parentUid" : "57f15d3c9bdd019cab0d5509d9dcc103",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642768515813,
+          "stop" : 1642768515839,
+          "duration" : 26
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'name': '大屏登录', 'request': {'method': 'post', 'HOST': 'http://47.108.217.193:8892', 'url': '/dp/login', 'data': {'username': 'admin', 'password': 111111}}, 'validdate': {'equals': {'status_code': 200}}}" ]
+      }, {
+        "name" : "test_03_login[urldata4]",
+        "uid" : "979ca89503a6585",
+        "parentUid" : "57f15d3c9bdd019cab0d5509d9dcc103",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642768516066,
+          "stop" : 1642768516084,
+          "duration" : 18
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'name': '单个员工详情', 'request': {'method': 'get', 'HOST': 'http://47.108.217.193:8892', 'url': '/dp/employerDetail', 'data': {'id': 143}}, 'validdate': {'equals': {'status_code': 200}}}" ]
+      }, {
+        "name" : "test_03_login[urldata16]",
+        "uid" : "97d7769e06e3a281",
+        "parentUid" : "57f15d3c9bdd019cab0d5509d9dcc103",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642768516494,
+          "stop" : 1642768516516,
+          "duration" : 22
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'name': '获取空压机设备列表', 'request': {'method': 'get', 'HOST': 'http://47.108.217.193:8892', 'url': '/dp/compressorList', 'data': {'direction': 'right,', 'duan': 'exit,', 'tunnelId': 1}}, 'validdate': {'equals': {'status_code': 200}}}" ]
+      }, {
+        "name" : "test_03_login[urldata11]",
+        "uid" : "d5ad9335a59d51d0",
+        "parentUid" : "57f15d3c9bdd019cab0d5509d9dcc103",
+        "status" : "failed",
+        "time" : {
+          "start" : 1642768516303,
+          "stop" : 1642768516332,
+          "duration" : 29
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'name': '各位置最新进尺信息', 'request': {'method': 'get', 'HOST': 'http://47.108.217.193:8892', 'url': '/dp/jinchiInfo', 'data': {'tunnelId': 1}}, 'validdate': {'equals': {'status_code': 200}}}" ]
+      }, {
+        "name" : "test_03_login[urldata14]",
+        "uid" : "f78f8f762de7929e",
+        "parentUid" : "57f15d3c9bdd019cab0d5509d9dcc103",
+        "status" : "failed",
+        "time" : {
+          "start" : 1642768516428,
+          "stop" : 1642768516450,
+          "duration" : 22
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'name': '获取进度柱形统计图数据，参数为左右洞和时间范围，默认时间范围近七天;左洞left/右洞right;进口端enter/出口端exit', 'request': {'method': 'get', 'HOST': 'http://47.108.217.193:8892', 'url': '/dp/getJcLine', 'data': {'direction': 'right,', 'duan': 'exit,', 'tunnelId': 1}}, 'validdate': {'equals': {'status_code': 200}}}" ]
+      }, {
+        "name" : "test_03_login[urldata6]",
+        "uid" : "67cd3446491a951c",
+        "parentUid" : "57f15d3c9bdd019cab0d5509d9dcc103",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642768516113,
+          "stop" : 1642768516136,
+          "duration" : 23
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'name': '门禁记录查看更多-车辆类型下拉选项', 'request': {'method': 'get', 'HOST': 'http://47.108.217.193:8892', 'url': '/dp/carTypes', 'data': {'tunnelId': 1}}, 'validdate': {'equals': {'status_code': 200}}}" ]
+      }, {
+        "name" : "test_03_login[urldata3]",
+        "uid" : "13f3be76dbab502c",
+        "parentUid" : "57f15d3c9bdd019cab0d5509d9dcc103",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642768516037,
+          "stop" : 1642768516062,
+          "duration" : 25
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'name': '实名制人员管理查看更多-按部门分组', 'request': {'method': 'get', 'HOST': 'http://47.108.217.193:8892', 'url': '/dp/allEmployers', 'data': {'tunnelId': '1,', 'name': '王'}}, 'validdate': {'equals': {'status_code': 200}}}" ]
+      }, {
+        "name" : "test_03_login[urldata1]",
+        "uid" : "fa70d2923a19b5e8",
+        "parentUid" : "57f15d3c9bdd019cab0d5509d9dcc103",
+        "status" : "failed",
+        "time" : {
+          "start" : 1642768515844,
+          "stop" : 1642768515865,
+          "duration" : 21
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'name': '隧道列表', 'request': {'method': 'get', 'HOST': 'http://47.108.217.193:8892', 'url': '/dp/tunnelList', 'data': {'proId': 1}}, 'validdate': {'equals': {'status_code': 200}}}" ]
+      }, {
+        "name" : "test_01_sysTime[common0]",
+        "uid" : "12a952d08f4869bf",
+        "parentUid" : "57f15d3c9bdd019cab0d5509d9dcc103",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642768515736,
+          "stop" : 1642768515758,
+          "duration" : 22
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'name': '获取系统时间', 'request': {'method': 'get', 'HOST': 'http://47.108.217.193:8892', 'url': '/dp/sysTime'}, 'validdate': {'equals': {'status_code': 200}}}" ]
+      }, {
+        "name" : "test_01_sysTime[common1]",
+        "uid" : "9fb35994ce179fbf",
+        "parentUid" : "57f15d3c9bdd019cab0d5509d9dcc103",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642768515762,
+          "stop" : 1642768515785,
+          "duration" : 23
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'name': '获取天气', 'request': {'method': 'get', 'HOST': 'http://47.108.217.193:8892', 'url': '/dp/weather'}, 'validdate': {'equals': {'status_code': 200}}}" ]
+      }, {
+        "name" : "test_03_login[urldata12]",
+        "uid" : "6276d61afb81f58",
+        "parentUid" : "57f15d3c9bdd019cab0d5509d9dcc103",
+        "status" : "failed",
+        "time" : {
+          "start" : 1642768516345,
+          "stop" : 1642768516368,
+          "duration" : 23
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'name': '获取进度统计柱形图的时间范围下拉数据', 'request': {'method': 'get', 'HOST': 'http://47.108.217.193:8892', 'url': '/dp/jcLineQueryRange', 'data': {'tunnelId': 1}}, 'validdate': {'equals': {'status_code': 200}}}" ]
+      }, {
+        "name" : "test_03_login[urldata7]",
+        "uid" : "3a05b8fd689654d",
+        "parentUid" : "57f15d3c9bdd019cab0d5509d9dcc103",
+        "status" : "failed",
+        "time" : {
+          "start" : 1642768516141,
+          "stop" : 1642768516163,
+          "duration" : 22
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'name': '查看门禁记录,type=1查看人员门禁记录，type=2查看车辆门禁记录', 'request': {'method': 'get', 'HOST': 'http://47.108.217.193:8892', 'url': '/dp/getExitRecord', 'data': {'current': '1,', 'limit': '10,', 'tunnelId': '1,', 'type': 1}}, 'validdate': {'equals': {'status_code': 200}}}" ]
+      }, {
+        "name" : "test_03_login[urldata5]",
+        "uid" : "665175609bdaa11b",
+        "parentUid" : "57f15d3c9bdd019cab0d5509d9dcc103",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642768516089,
+          "stop" : 1642768516109,
+          "duration" : 20
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'name': '门禁记录查看更多-部门下拉选项', 'request': {'method': 'get', 'HOST': 'http://47.108.217.193:8892', 'url': '/dp/depts', 'data': {'tunnelId': 1}}, 'validdate': {'equals': {'status_code': 200}}}" ]
+      }, {
+        "name" : "test_01_sysTime[common2]",
+        "uid" : "9e96189f38d72028",
+        "parentUid" : "57f15d3c9bdd019cab0d5509d9dcc103",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642768515791,
+          "stop" : 1642768515808,
+          "duration" : 17
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'name': '项目列表', 'request': {'method': 'get', 'HOST': 'http://47.108.217.193:8892', 'url': '/dp/projectList'}, 'validdate': {'equals': {'status_code': 200}}}" ]
+      }, {
+        "name" : "test_03_login[urldata13]",
+        "uid" : "aa483588944eb7ff",
+        "parentUid" : "57f15d3c9bdd019cab0d5509d9dcc103",
+        "status" : "failed",
+        "time" : {
+          "start" : 1642768516386,
+          "stop" : 1642768516413,
+          "duration" : 27
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'name': '获取进度柱形统计图数据，参数为左右洞和时间范围，默认时间范围近七天;左洞left/右洞right;进口端enter/出口端exit', 'request': {'method': 'get', 'HOST': 'http://47.108.217.193:8892', 'url': '/dp/getJcLine', 'data': {'direction': 'left,', 'duan': 'enter,', 'tunnelId': 1}}, 'validdate': {'equals': {'status_code': 200}}}" ]
+      }, {
+        "name" : "test_03_login[urldata2]",
+        "uid" : "49e2e85fcf79d2d5",
+        "parentUid" : "57f15d3c9bdd019cab0d5509d9dcc103",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642768515956,
+          "stop" : 1642768516032,
+          "duration" : 76
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'name': '大屏人员实名制统计(各部门人员统计)', 'request': {'method': 'get', 'HOST': 'http://47.108.217.193:8892', 'url': '/dp/employerStat', 'data': {'tunnelId': 1}}, 'validdate': {'equals': {'status_code': 200}}}" ]
+      }, {
+        "name" : "test_03_login[urldata8]",
+        "uid" : "66aa3ae93bb2c4a0",
+        "parentUid" : "57f15d3c9bdd019cab0d5509d9dcc103",
+        "status" : "failed",
+        "time" : {
+          "start" : 1642768516174,
+          "stop" : 1642768516195,
+          "duration" : 21
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'name': '查看门禁记录,type=1查看人员门禁记录，type=2查看车辆门禁记录', 'request': {'method': 'get', 'HOST': 'http://47.108.217.193:8892', 'url': '/dp/getExitRecord', 'data': {'current': '1,', 'limit': '10,', 'tunnelId': '1,', 'type': 2}}, 'validdate': {'equals': {'status_code': 200}}}" ]
+      } ],
+      "uid" : "57f15d3c9bdd019cab0d5509d9dcc103"
+    }, {
+      "name" : "5236-MainThread",
+      "children" : [ {
+        "name" : "test_03_login[urldata4]",
+        "uid" : "c8aeb8cb2db7c664",
+        "parentUid" : "a0a8e47430c42b07d0e46b8cd09c0d5f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642079589334,
+          "stop" : 1642079589395,
+          "duration" : 61
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'name': '单个员工详情', 'request': {'method': 'get', 'HOST': 'http://47.108.217.193:8892', 'url': '/dp/employerDetail', 'data': {'id': 143}}, 'validdate': {'equals': {'status_code': 200}}}" ]
+      }, {
+        "name" : "test_01_sysTime[common0]",
+        "uid" : "a3cc83b2426a7416",
+        "parentUid" : "a0a8e47430c42b07d0e46b8cd09c0d5f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642079589099,
+          "stop" : 1642079589128,
+          "duration" : 29
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'name': '获取系统时间', 'request': {'method': 'get', 'HOST': 'http://47.108.217.193:8892', 'url': '/dp/sysTime'}, 'validdate': {'equals': {'status_code': 200}}}" ]
+      }, {
+        "name" : "test_03_login[urldata11]",
+        "uid" : "22a66a1d3a858d13",
+        "parentUid" : "a0a8e47430c42b07d0e46b8cd09c0d5f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642079589644,
+          "stop" : 1642079589671,
+          "duration" : 27
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'name': '各位置最新进尺信息', 'request': {'method': 'get', 'HOST': 'http://47.108.217.193:8892', 'url': '/dp/jinchiInfo', 'data': {'tunnelId': 1}}, 'validdate': {'equals': {'status_code': 200}}}" ]
+      }, {
+        "name" : "test_03_login[urldata3]",
+        "uid" : "f7e99747ff50399f",
+        "parentUid" : "a0a8e47430c42b07d0e46b8cd09c0d5f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642079589301,
+          "stop" : 1642079589328,
+          "duration" : 27
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'name': '实名制人员管理查看更多-按部门分组', 'request': {'method': 'get', 'HOST': 'http://47.108.217.193:8892', 'url': '/dp/allEmployers', 'data': {'tunnelId': '1,', 'name': '王'}}, 'validdate': {'equals': {'status_code': 200}}}" ]
+      }, {
+        "name" : "test_03_login[urldata14]",
+        "uid" : "9b7c553348f87af",
+        "parentUid" : "a0a8e47430c42b07d0e46b8cd09c0d5f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642079589725,
+          "stop" : 1642079589747,
+          "duration" : 22
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'name': '获取进度柱形统计图数据，参数为左右洞和时间范围，默认时间范围近七天;左洞left/右洞right;进口端enter/出口端exit', 'request': {'method': 'get', 'HOST': 'http://47.108.217.193:8892', 'url': '/dp/getJcLine', 'data': {'direction': 'right,', 'duan': 'exit,', 'tunnelId': 1}}, 'validdate': {'equals': {'status_code': 200}}}" ]
+      }, {
+        "name" : "test_03_login[urldata7]",
+        "uid" : "dc17f2810f5ff8ea",
+        "parentUid" : "a0a8e47430c42b07d0e46b8cd09c0d5f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642079589459,
+          "stop" : 1642079589481,
+          "duration" : 22
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'name': '查看门禁记录,type=1查看人员门禁记录，type=2查看车辆门禁记录', 'request': {'method': 'get', 'HOST': 'http://47.108.217.193:8892', 'url': '/dp/getExitRecord', 'data': {'current': '1,', 'limit': '10,', 'tunnelId': '1,', 'type': 1}}, 'validdate': {'equals': {'status_code': 200}}}" ]
+      }, {
+        "name" : "test_03_login[urldata1]",
+        "uid" : "5bd123d7efb271f0",
+        "parentUid" : "a0a8e47430c42b07d0e46b8cd09c0d5f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642079589251,
+          "stop" : 1642079589272,
+          "duration" : 21
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'name': '隧道列表', 'request': {'method': 'get', 'HOST': 'http://47.108.217.193:8892', 'url': '/dp/tunnelList', 'data': {'proId': 1}}, 'validdate': {'equals': {'status_code': 200}}}" ]
+      }, {
+        "name" : "test_01_sysTime[common1]",
+        "uid" : "9e7307dd92666c72",
+        "parentUid" : "a0a8e47430c42b07d0e46b8cd09c0d5f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642079589133,
+          "stop" : 1642079589157,
+          "duration" : 24
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'name': '获取天气', 'request': {'method': 'get', 'HOST': 'http://47.108.217.193:8892', 'url': '/dp/weather'}, 'validdate': {'equals': {'status_code': 200}}}" ]
+      }, {
+        "name" : "test_03_login[urldata15]",
+        "uid" : "42b8eff0617b5d24",
+        "parentUid" : "a0a8e47430c42b07d0e46b8cd09c0d5f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642079589752,
+          "stop" : 1642079589773,
+          "duration" : 21
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'name': '获取风机设备列表', 'request': {'method': 'get', 'HOST': 'http://47.108.217.193:8892', 'url': '/dp/fanList', 'data': {'direction': 'right,', 'duan': 'exit,', 'tunnelId': 1}}, 'validdate': {'equals': {'status_code': 200}}}" ]
+      }, {
+        "name" : "test_03_login[urldata10]",
+        "uid" : "f6d3431788399f07",
+        "parentUid" : "a0a8e47430c42b07d0e46b8cd09c0d5f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642079589565,
+          "stop" : 1642079589640,
+          "duration" : 75
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'name': '获取播放流地址', 'request': {'method': 'get', 'HOST': 'http://47.108.217.193:8892', 'url': '/dp/getVideoStream', 'data': {'tunnelId': 1}}, 'validdate': {'equals': {'status_code': 200}}}" ]
+      }, {
+        "name" : "test_03_login[urldata16]",
+        "uid" : "7ea28e05410b05e4",
+        "parentUid" : "a0a8e47430c42b07d0e46b8cd09c0d5f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642079589778,
+          "stop" : 1642079589798,
+          "duration" : 20
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'name': '获取空压机设备列表', 'request': {'method': 'get', 'HOST': 'http://47.108.217.193:8892', 'url': '/dp/compressorList', 'data': {'direction': 'right,', 'duan': 'exit,', 'tunnelId': 1}}, 'validdate': {'equals': {'status_code': 200}}}" ]
+      }, {
+        "name" : "test_01_sysTime[common2]",
+        "uid" : "ccaa88dac80cbd51",
+        "parentUid" : "a0a8e47430c42b07d0e46b8cd09c0d5f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642079589162,
+          "stop" : 1642079589218,
+          "duration" : 56
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'name': '项目列表', 'request': {'method': 'get', 'HOST': 'http://47.108.217.193:8892', 'url': '/dp/projectList'}, 'validdate': {'equals': {'status_code': 200}}}" ]
+      }, {
+        "name" : "test_03_login[urldata0]",
+        "uid" : "f391eb5968040bf4",
+        "parentUid" : "a0a8e47430c42b07d0e46b8cd09c0d5f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642079589222,
+          "stop" : 1642079589247,
+          "duration" : 25
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'name': '大屏登录', 'request': {'method': 'post', 'HOST': 'http://47.108.217.193:8892', 'url': '/dp/login', 'data': {'username': 'admin', 'password': 111111}}, 'validdate': {'equals': {'status_code': 200}}}" ]
+      }, {
+        "name" : "test_03_login[urldata9]",
+        "uid" : "fc3a7c1b59ebc9df",
+        "parentUid" : "a0a8e47430c42b07d0e46b8cd09c0d5f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642079589538,
+          "stop" : 1642079589561,
+          "duration" : 23
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'name': '3D 定位区域数据', 'request': {'method': 'get', 'HOST': 'http://47.108.217.193:8892', 'url': '/dp/regionLocation3D', 'data': {'tunnelId': 1}}, 'validdate': {'equals': {'status_code': 200}}}" ]
+      }, {
+        "name" : "test_03_login[urldata5]",
+        "uid" : "c51cc7f5e16de238",
+        "parentUid" : "a0a8e47430c42b07d0e46b8cd09c0d5f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642079589400,
+          "stop" : 1642079589427,
+          "duration" : 27
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'name': '门禁记录查看更多-部门下拉选项', 'request': {'method': 'get', 'HOST': 'http://47.108.217.193:8892', 'url': '/dp/depts', 'data': {'tunnelId': 1}}, 'validdate': {'equals': {'status_code': 200}}}" ]
+      }, {
+        "name" : "test_03_login[urldata2]",
+        "uid" : "3b5c85fbe317754c",
+        "parentUid" : "a0a8e47430c42b07d0e46b8cd09c0d5f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642079589277,
+          "stop" : 1642079589296,
+          "duration" : 19
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'name': '大屏人员实名制统计(各部门人员统计)', 'request': {'method': 'get', 'HOST': 'http://47.108.217.193:8892', 'url': '/dp/employerStat', 'data': {'tunnelId': 1}}, 'validdate': {'equals': {'status_code': 200}}}" ]
+      }, {
+        "name" : "test_03_login[urldata6]",
+        "uid" : "a076ac8e7f9976dd",
+        "parentUid" : "a0a8e47430c42b07d0e46b8cd09c0d5f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642079589431,
+          "stop" : 1642079589455,
+          "duration" : 24
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'name': '门禁记录查看更多-车辆类型下拉选项', 'request': {'method': 'get', 'HOST': 'http://47.108.217.193:8892', 'url': '/dp/carTypes', 'data': {'tunnelId': 1}}, 'validdate': {'equals': {'status_code': 200}}}" ]
+      }, {
+        "name" : "test_03_login[urldata8]",
+        "uid" : "f0bb0cf700dedabb",
+        "parentUid" : "a0a8e47430c42b07d0e46b8cd09c0d5f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642079589485,
+          "stop" : 1642079589534,
+          "duration" : 49
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'name': '查看门禁记录,type=1查看人员门禁记录，type=2查看车辆门禁记录', 'request': {'method': 'get', 'HOST': 'http://47.108.217.193:8892', 'url': '/dp/getExitRecord', 'data': {'current': '1,', 'limit': '10,', 'tunnelId': '1,', 'type': 2}}, 'validdate': {'equals': {'status_code': 200}}}" ]
+      }, {
+        "name" : "test_03_login[urldata12]",
+        "uid" : "60e93b01f29b2365",
+        "parentUid" : "a0a8e47430c42b07d0e46b8cd09c0d5f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642079589675,
+          "stop" : 1642079589696,
+          "duration" : 21
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'name': '获取进度统计柱形图的时间范围下拉数据', 'request': {'method': 'get', 'HOST': 'http://47.108.217.193:8892', 'url': '/dp/jcLineQueryRange', 'data': {'tunnelId': 1}}, 'validdate': {'equals': {'status_code': 200}}}" ]
+      }, {
+        "name" : "test_03_login[urldata13]",
+        "uid" : "e7c9969071ca24c1",
+        "parentUid" : "a0a8e47430c42b07d0e46b8cd09c0d5f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642079589701,
+          "stop" : 1642079589721,
+          "duration" : 20
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'name': '获取进度柱形统计图数据，参数为左右洞和时间范围，默认时间范围近七天;左洞left/右洞right;进口端enter/出口端exit', 'request': {'method': 'get', 'HOST': 'http://47.108.217.193:8892', 'url': '/dp/getJcLine', 'data': {'direction': 'left,', 'duan': 'enter,', 'tunnelId': 1}}, 'validdate': {'equals': {'status_code': 200}}}" ]
+      } ],
+      "uid" : "a0a8e47430c42b07d0e46b8cd09c0d5f"
+    }, {
+      "name" : "7148-MainThread",
+      "children" : [ {
+        "name" : "test_01_sysTime[common2]",
+        "uid" : "346676bae7c418f3",
+        "parentUid" : "9f39dbf54a05dc39205274d5db7893a0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642079790688,
+          "stop" : 1642079790711,
+          "duration" : 23
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'name': '项目列表', 'request': {'method': 'get', 'HOST': 'http://47.108.217.193:8892', 'url': '/dp/projectList'}, 'validdate': {'equals': {'status_code': 200}}}" ]
+      }, {
+        "name" : "test_01_sysTime[common1]",
+        "uid" : "3eb73def3d4cec21",
+        "parentUid" : "9f39dbf54a05dc39205274d5db7893a0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642079790662,
+          "stop" : 1642079790684,
+          "duration" : 22
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'name': '获取天气', 'request': {'method': 'get', 'HOST': 'http://47.108.217.193:8892', 'url': '/dp/weather'}, 'validdate': {'equals': {'status_code': 200}}}" ]
+      }, {
+        "name" : "test_03_login[urldata10]",
+        "uid" : "6a1d927be3fa2f52",
+        "parentUid" : "9f39dbf54a05dc39205274d5db7893a0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642079791007,
+          "stop" : 1642079791031,
+          "duration" : 24
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'name': '获取播放流地址', 'request': {'method': 'get', 'HOST': 'http://47.108.217.193:8892', 'url': '/dp/getVideoStream', 'data': {'tunnelId': 1}}, 'validdate': {'equals': {'status_code': 200}}}" ]
+      }, {
+        "name" : "test_03_login[urldata13]",
+        "uid" : "7a9861ff6f384819",
+        "parentUid" : "9f39dbf54a05dc39205274d5db7893a0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642079791090,
+          "stop" : 1642079791110,
+          "duration" : 20
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'name': '获取进度柱形统计图数据，参数为左右洞和时间范围，默认时间范围近七天;左洞left/右洞right;进口端enter/出口端exit', 'request': {'method': 'get', 'HOST': 'http://47.108.217.193:8892', 'url': '/dp/getJcLine', 'data': {'direction': 'left,', 'duan': 'enter,', 'tunnelId': 1}}, 'validdate': {'equals': {'status_code': 200}}}" ]
+      }, {
+        "name" : "test_03_login[urldata9]",
+        "uid" : "55a920861236248d",
+        "parentUid" : "9f39dbf54a05dc39205274d5db7893a0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642079790980,
+          "stop" : 1642079791002,
+          "duration" : 22
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'name': '3D 定位区域数据', 'request': {'method': 'get', 'HOST': 'http://47.108.217.193:8892', 'url': '/dp/regionLocation3D', 'data': {'tunnelId': 1}}, 'validdate': {'equals': {'status_code': 200}}}" ]
+      }, {
+        "name" : "test_03_login[urldata12]",
+        "uid" : "ff347271d0724772",
+        "parentUid" : "9f39dbf54a05dc39205274d5db7893a0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642079791063,
+          "stop" : 1642079791084,
+          "duration" : 21
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'name': '获取进度统计柱形图的时间范围下拉数据', 'request': {'method': 'get', 'HOST': 'http://47.108.217.193:8892', 'url': '/dp/jcLineQueryRange', 'data': {'tunnelId': 1}}, 'validdate': {'equals': {'status_code': 200}}}" ]
+      }, {
+        "name" : "test_03_login[urldata5]",
+        "uid" : "e11f10d3bd2fbc47",
+        "parentUid" : "9f39dbf54a05dc39205274d5db7893a0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642079790868,
+          "stop" : 1642079790891,
+          "duration" : 23
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'name': '门禁记录查看更多-部门下拉选项', 'request': {'method': 'get', 'HOST': 'http://47.108.217.193:8892', 'url': '/dp/depts', 'data': {'tunnelId': 1}}, 'validdate': {'equals': {'status_code': 200}}}" ]
+      }, {
+        "name" : "test_01_sysTime[common0]",
+        "uid" : "24325dd36453daab",
+        "parentUid" : "9f39dbf54a05dc39205274d5db7893a0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642079790627,
+          "stop" : 1642079790657,
+          "duration" : 30
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'name': '获取系统时间', 'request': {'method': 'get', 'HOST': 'http://47.108.217.193:8892', 'url': '/dp/sysTime'}, 'validdate': {'equals': {'status_code': 200}}}" ]
+      }, {
+        "name" : "test_03_login[urldata15]",
+        "uid" : "764f59e48d0f3aca",
+        "parentUid" : "9f39dbf54a05dc39205274d5db7893a0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642079791145,
+          "stop" : 1642079791165,
+          "duration" : 20
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'name': '获取风机设备列表', 'request': {'method': 'get', 'HOST': 'http://47.108.217.193:8892', 'url': '/dp/fanList', 'data': {'direction': 'right,', 'duan': 'exit,', 'tunnelId': 1}}, 'validdate': {'equals': {'status_code': 200}}}" ]
+      }, {
+        "name" : "test_03_login[urldata8]",
+        "uid" : "8335977d32eed638",
+        "parentUid" : "9f39dbf54a05dc39205274d5db7893a0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642079790954,
+          "stop" : 1642079790976,
+          "duration" : 22
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'name': '查看门禁记录,type=1查看人员门禁记录，type=2查看车辆门禁记录', 'request': {'method': 'get', 'HOST': 'http://47.108.217.193:8892', 'url': '/dp/getExitRecord', 'data': {'current': '1,', 'limit': '10,', 'tunnelId': '1,', 'type': 2}}, 'validdate': {'equals': {'status_code': 200}}}" ]
+      }, {
+        "name" : "test_03_login[urldata11]",
+        "uid" : "ef27ef7af397998",
+        "parentUid" : "9f39dbf54a05dc39205274d5db7893a0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642079791035,
+          "stop" : 1642079791059,
+          "duration" : 24
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'name': '各位置最新进尺信息', 'request': {'method': 'get', 'HOST': 'http://47.108.217.193:8892', 'url': '/dp/jinchiInfo', 'data': {'tunnelId': 1}}, 'validdate': {'equals': {'status_code': 200}}}" ]
+      }, {
+        "name" : "test_03_login[urldata1]",
+        "uid" : "3966ba7296d4e945",
+        "parentUid" : "9f39dbf54a05dc39205274d5db7893a0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642079790753,
+          "stop" : 1642079790777,
+          "duration" : 24
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'name': '隧道列表', 'request': {'method': 'get', 'HOST': 'http://47.108.217.193:8892', 'url': '/dp/tunnelList', 'data': {'proId': 1}}, 'validdate': {'equals': {'status_code': 200}}}" ]
+      }, {
+        "name" : "test_03_login[urldata3]",
+        "uid" : "bf78ca372c9312ca",
+        "parentUid" : "9f39dbf54a05dc39205274d5db7893a0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642079790807,
+          "stop" : 1642079790835,
+          "duration" : 28
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'name': '实名制人员管理查看更多-按部门分组', 'request': {'method': 'get', 'HOST': 'http://47.108.217.193:8892', 'url': '/dp/allEmployers', 'data': {'tunnelId': '1,', 'name': '王'}}, 'validdate': {'equals': {'status_code': 200}}}" ]
+      }, {
+        "name" : "test_03_login[urldata14]",
+        "uid" : "103b8ca2c199faee",
+        "parentUid" : "9f39dbf54a05dc39205274d5db7893a0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642079791114,
+          "stop" : 1642079791141,
+          "duration" : 27
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'name': '获取进度柱形统计图数据，参数为左右洞和时间范围，默认时间范围近七天;左洞left/右洞right;进口端enter/出口端exit', 'request': {'method': 'get', 'HOST': 'http://47.108.217.193:8892', 'url': '/dp/getJcLine', 'data': {'direction': 'right,', 'duan': 'exit,', 'tunnelId': 1}}, 'validdate': {'equals': {'status_code': 200}}}" ]
+      }, {
+        "name" : "test_03_login[urldata6]",
+        "uid" : "13323530c78cd3ab",
+        "parentUid" : "9f39dbf54a05dc39205274d5db7893a0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642079790895,
+          "stop" : 1642079790917,
+          "duration" : 22
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'name': '门禁记录查看更多-车辆类型下拉选项', 'request': {'method': 'get', 'HOST': 'http://47.108.217.193:8892', 'url': '/dp/carTypes', 'data': {'tunnelId': 1}}, 'validdate': {'equals': {'status_code': 200}}}" ]
+      }, {
+        "name" : "test_03_login[urldata7]",
+        "uid" : "bc8b1cd29a02e312",
+        "parentUid" : "9f39dbf54a05dc39205274d5db7893a0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642079790922,
+          "stop" : 1642079790949,
+          "duration" : 27
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'name': '查看门禁记录,type=1查看人员门禁记录，type=2查看车辆门禁记录', 'request': {'method': 'get', 'HOST': 'http://47.108.217.193:8892', 'url': '/dp/getExitRecord', 'data': {'current': '1,', 'limit': '10,', 'tunnelId': '1,', 'type': 1}}, 'validdate': {'equals': {'status_code': 200}}}" ]
+      }, {
+        "name" : "test_03_login[urldata16]",
+        "uid" : "7fd0bbfa46f434ef",
+        "parentUid" : "9f39dbf54a05dc39205274d5db7893a0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642079791170,
+          "stop" : 1642079791196,
+          "duration" : 26
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'name': '获取空压机设备列表', 'request': {'method': 'get', 'HOST': 'http://47.108.217.193:8892', 'url': '/dp/compressorList', 'data': {'direction': 'right,', 'duan': 'exit,', 'tunnelId': 1}}, 'validdate': {'equals': {'status_code': 200}}}" ]
+      }, {
+        "name" : "test_03_login[urldata4]",
+        "uid" : "419eb9dc319b719d",
+        "parentUid" : "9f39dbf54a05dc39205274d5db7893a0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642079790840,
+          "stop" : 1642079790862,
+          "duration" : 22
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'name': '单个员工详情', 'request': {'method': 'get', 'HOST': 'http://47.108.217.193:8892', 'url': '/dp/employerDetail', 'data': {'id': 143}}, 'validdate': {'equals': {'status_code': 200}}}" ]
+      }, {
+        "name" : "test_03_login[urldata0]",
+        "uid" : "56c20c9d2ec87251",
+        "parentUid" : "9f39dbf54a05dc39205274d5db7893a0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642079790715,
+          "stop" : 1642079790748,
+          "duration" : 33
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'name': '大屏登录', 'request': {'method': 'post', 'HOST': 'http://47.108.217.193:8892', 'url': '/dp/login', 'data': {'username': 'admin', 'password': 111111}}, 'validdate': {'equals': {'status_code': 200}}}" ]
+      }, {
+        "name" : "test_03_login[urldata2]",
+        "uid" : "1e5e9d4440f37fc",
+        "parentUid" : "9f39dbf54a05dc39205274d5db7893a0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642079790781,
+          "stop" : 1642079790801,
+          "duration" : 20
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'name': '大屏人员实名制统计(各部门人员统计)', 'request': {'method': 'get', 'HOST': 'http://47.108.217.193:8892', 'url': '/dp/employerStat', 'data': {'tunnelId': 1}}, 'validdate': {'equals': {'status_code': 200}}}" ]
+      } ],
+      "uid" : "9f39dbf54a05dc39205274d5db7893a0"
+    } ],
+    "uid" : "7f8ab7c64975e3f42675c19e4dbbf00d"
+  } ]
+}

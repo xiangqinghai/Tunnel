@@ -1,0 +1,63 @@
+{
+  "uid" : "9b7c553348f87af",
+  "name" : "test_03_login[urldata14]",
+  "fullName" : "test_case.test.TestDaping#test_03_login",
+  "historyId" : "604f6d1fab7e47f880dfc59108599cdc",
+  "time" : {
+    "start" : 1642079589725,
+    "stop" : 1642079589747,
+    "duration" : 22
+  },
+  "description" : "参数有url和data",
+  "descriptionHtml" : "<p>参数有url和data</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "test_case"
+  }, {
+    "name" : "suite",
+    "value" : "test"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestDaping"
+  }, {
+    "name" : "host",
+    "value" : "SKY-20200412HPG"
+  }, {
+    "name" : "thread",
+    "value" : "5236-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_case.test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "urldata",
+    "value" : "{'name': '获取进度柱形统计图数据，参数为左右洞和时间范围，默认时间范围近七天;左洞left/右洞right;进口端enter/出口端exit', 'request': {'method': 'get', 'HOST': 'http://47.108.217.193:8892', 'url': '/dp/getJcLine', 'data': {'direction': 'right,', 'duan': 'exit,', 'tunnelId': 1}}, 'validdate': {'equals': {'status_code': 200}}}"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "9b7c553348f87af.json",
+  "parameterValues" : [ "{'name': '获取进度柱形统计图数据，参数为左右洞和时间范围，默认时间范围近七天;左洞left/右洞right;进口端enter/出口端exit', 'request': {'method': 'get', 'HOST': 'http://47.108.217.193:8892', 'url': '/dp/getJcLine', 'data': {'direction': 'right,', 'duan': 'exit,', 'tunnelId': 1}}, 'validdate': {'equals': {'status_code': 200}}}" ]
+}

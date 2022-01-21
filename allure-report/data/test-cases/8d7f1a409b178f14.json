@@ -1,0 +1,121 @@
+{
+  "uid" : "8d7f1a409b178f14",
+  "name" : "test_03_login[urldata2]",
+  "fullName" : "test_case.test.TestDaping#test_03_login",
+  "historyId" : "b395d119e986b6626edd2c45e35ad6ef",
+  "time" : {
+    "start" : 1642776358009,
+    "stop" : 1642776358039,
+    "duration" : 30
+  },
+  "description" : "参数有url和data",
+  "descriptionHtml" : "<p>参数有url和data</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 7,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "test_case"
+  }, {
+    "name" : "suite",
+    "value" : "test"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestDaping"
+  }, {
+    "name" : "host",
+    "value" : "SKY-20200412HPG"
+  }, {
+    "name" : "thread",
+    "value" : "14312-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_case.test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "urldata",
+    "value" : "{'name': '大屏人员实名制统计(各部门人员统计)', 'request': {'method': 'get', 'HOST': 'http://47.108.217.193:8892', 'url': '/dp/employerStat', 'data': {'tunnelId': 1}}, 'validdate': {'equals': {'status_code': 200}}}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "1cfda90224e054e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1642771119211,
+        "stop" : 1642771119235,
+        "duration" : 24
+      }
+    }, {
+      "uid" : "49e2e85fcf79d2d5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1642768515956,
+        "stop" : 1642768516032,
+        "duration" : 76
+      }
+    }, {
+      "uid" : "7d04fa773157cdc2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1642768430564,
+        "stop" : 1642768430610,
+        "duration" : 46
+      }
+    }, {
+      "uid" : "753f9e9f46daf638",
+      "status" : "passed",
+      "time" : {
+        "start" : 1642080308335,
+        "stop" : 1642080308359,
+        "duration" : 24
+      }
+    }, {
+      "uid" : "a17e13bec5d8c3f9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1642079862143,
+        "stop" : 1642079862179,
+        "duration" : 36
+      }
+    }, {
+      "uid" : "1e5e9d4440f37fc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1642079790781,
+        "stop" : 1642079790801,
+        "duration" : 20
+      }
+    }, {
+      "uid" : "3b5c85fbe317754c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1642079589277,
+        "stop" : 1642079589296,
+        "duration" : 19
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "8d7f1a409b178f14.json",
+  "parameterValues" : [ "{'name': '大屏人员实名制统计(各部门人员统计)', 'request': {'method': 'get', 'HOST': 'http://47.108.217.193:8892', 'url': '/dp/employerStat', 'data': {'tunnelId': 1}}, 'validdate': {'equals': {'status_code': 200}}}" ]
+}

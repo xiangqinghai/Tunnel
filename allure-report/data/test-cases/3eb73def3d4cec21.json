@@ -1,0 +1,63 @@
+{
+  "uid" : "3eb73def3d4cec21",
+  "name" : "test_01_sysTime[common1]",
+  "fullName" : "test_case.test.TestDaping#test_01_sysTime",
+  "historyId" : "c0ceb75b4b76737aad7579d517cc5499",
+  "time" : {
+    "start" : 1642079790662,
+    "stop" : 1642079790684,
+    "duration" : 22
+  },
+  "description" : "获取系统时间",
+  "descriptionHtml" : "<p>获取系统时间</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "test_case"
+  }, {
+    "name" : "suite",
+    "value" : "test"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestDaping"
+  }, {
+    "name" : "host",
+    "value" : "SKY-20200412HPG"
+  }, {
+    "name" : "thread",
+    "value" : "7148-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_case.test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "common",
+    "value" : "{'name': '获取天气', 'request': {'method': 'get', 'HOST': 'http://47.108.217.193:8892', 'url': '/dp/weather'}, 'validdate': {'equals': {'status_code': 200}}}"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "3eb73def3d4cec21.json",
+  "parameterValues" : [ "{'name': '获取天气', 'request': {'method': 'get', 'HOST': 'http://47.108.217.193:8892', 'url': '/dp/weather'}, 'validdate': {'equals': {'status_code': 200}}}" ]
+}

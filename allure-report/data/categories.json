@@ -1,0 +1,153 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "AssertionError: assert 500 == 200\n  +500\n  -200",
+      "children" : [ {
+        "name" : "test_03_login[urldata1]",
+        "uid" : "ae5f8573218762ec",
+        "parentUid" : "c7c3f630dbb3ae9f6e1dac3f82892eff",
+        "status" : "failed",
+        "time" : {
+          "start" : 1642776357858,
+          "stop" : 1642776357883,
+          "duration" : 25
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 7,
+        "retriesStatusChange" : true,
+        "parameters" : [ "{'name': '隧道列表', 'request': {'method': 'get', 'HOST': 'http://47.108.217.193:8892', 'url': '/dp/tunnelList', 'data': {'proId': 1}}, 'validdate': {'equals': {'status_code': 200}}}" ]
+      }, {
+        "name" : "test_03_login[urldata7]",
+        "uid" : "3e10a92388b903ad",
+        "parentUid" : "c7c3f630dbb3ae9f6e1dac3f82892eff",
+        "status" : "failed",
+        "time" : {
+          "start" : 1642776358180,
+          "stop" : 1642776358207,
+          "duration" : 27
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 7,
+        "retriesStatusChange" : true,
+        "parameters" : [ "{'name': '查看门禁记录,type=1查看人员门禁记录，type=2查看车辆门禁记录', 'request': {'method': 'get', 'HOST': 'http://47.108.217.193:8892', 'url': '/dp/getExitRecord', 'data': {'current': '1,', 'limit': '10,', 'tunnelId': '1,', 'type': 1}}, 'validdate': {'equals': {'status_code': 200}}}" ]
+      }, {
+        "name" : "test_03_login[urldata8]",
+        "uid" : "bebdda8b829cfa49",
+        "parentUid" : "c7c3f630dbb3ae9f6e1dac3f82892eff",
+        "status" : "failed",
+        "time" : {
+          "start" : 1642776358224,
+          "stop" : 1642776358250,
+          "duration" : 26
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 7,
+        "retriesStatusChange" : true,
+        "parameters" : [ "{'name': '查看门禁记录,type=1查看人员门禁记录，type=2查看车辆门禁记录', 'request': {'method': 'get', 'HOST': 'http://47.108.217.193:8892', 'url': '/dp/getExitRecord', 'data': {'current': '1,', 'limit': '10,', 'tunnelId': '1,', 'type': 2}}, 'validdate': {'equals': {'status_code': 200}}}" ]
+      }, {
+        "name" : "test_03_login[urldata9]",
+        "uid" : "22d34c05d40b22a6",
+        "parentUid" : "c7c3f630dbb3ae9f6e1dac3f82892eff",
+        "status" : "failed",
+        "time" : {
+          "start" : 1642776358271,
+          "stop" : 1642776358296,
+          "duration" : 25
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 7,
+        "retriesStatusChange" : true,
+        "parameters" : [ "{'name': '3D 定位区域数据', 'request': {'method': 'get', 'HOST': 'http://47.108.217.193:8892', 'url': '/dp/regionLocation3D', 'data': {'tunnelId': 1}}, 'validdate': {'equals': {'status_code': 200}}}" ]
+      }, {
+        "name" : "test_03_login[urldata11]",
+        "uid" : "e59f5cebce799c65",
+        "parentUid" : "c7c3f630dbb3ae9f6e1dac3f82892eff",
+        "status" : "failed",
+        "time" : {
+          "start" : 1642776358351,
+          "stop" : 1642776358380,
+          "duration" : 29
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 7,
+        "retriesStatusChange" : true,
+        "parameters" : [ "{'name': '各位置最新进尺信息', 'request': {'method': 'get', 'HOST': 'http://47.108.217.193:8892', 'url': '/dp/jinchiInfo', 'data': {'tunnelId': 1}}, 'validdate': {'equals': {'status_code': 200}}}" ]
+      }, {
+        "name" : "test_03_login[urldata12]",
+        "uid" : "d11710948e590e9d",
+        "parentUid" : "c7c3f630dbb3ae9f6e1dac3f82892eff",
+        "status" : "failed",
+        "time" : {
+          "start" : 1642776358395,
+          "stop" : 1642776358427,
+          "duration" : 32
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 7,
+        "retriesStatusChange" : true,
+        "parameters" : [ "{'name': '获取进度统计柱形图的时间范围下拉数据', 'request': {'method': 'get', 'HOST': 'http://47.108.217.193:8892', 'url': '/dp/jcLineQueryRange', 'data': {'tunnelId': 1}}, 'validdate': {'equals': {'status_code': 200}}}" ]
+      } ],
+      "uid" : "c7c3f630dbb3ae9f6e1dac3f82892eff"
+    }, {
+      "name" : "AssertionError: assert 800 == 200\n  +800\n  -200",
+      "children" : [ {
+        "name" : "test_03_login[urldata13]",
+        "uid" : "4917563e6be8e9f1",
+        "parentUid" : "2920fa96878d486632a6a7e5e1fa6b4d",
+        "status" : "failed",
+        "time" : {
+          "start" : 1642776358448,
+          "stop" : 1642776358472,
+          "duration" : 24
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 7,
+        "retriesStatusChange" : true,
+        "parameters" : [ "{'name': '获取进度柱形统计图数据，参数为左右洞和时间范围，默认时间范围近七天;左洞left/右洞right;进口端enter/出口端exit', 'request': {'method': 'get', 'HOST': 'http://47.108.217.193:8892', 'url': '/dp/getJcLine', 'data': {'direction': 'left,', 'duan': 'enter,', 'tunnelId': 1}}, 'validdate': {'equals': {'status_code': 200}}}" ]
+      }, {
+        "name" : "test_03_login[urldata14]",
+        "uid" : "aa26a16fbeb92d2a",
+        "parentUid" : "2920fa96878d486632a6a7e5e1fa6b4d",
+        "status" : "failed",
+        "time" : {
+          "start" : 1642776358486,
+          "stop" : 1642776358507,
+          "duration" : 21
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 7,
+        "retriesStatusChange" : true,
+        "parameters" : [ "{'name': '获取进度柱形统计图数据，参数为左右洞和时间范围，默认时间范围近七天;左洞left/右洞right;进口端enter/出口端exit', 'request': {'method': 'get', 'HOST': 'http://47.108.217.193:8892', 'url': '/dp/getJcLine', 'data': {'direction': 'right,', 'duan': 'exit,', 'tunnelId': 1}}, 'validdate': {'equals': {'status_code': 200}}}" ]
+      } ],
+      "uid" : "2920fa96878d486632a6a7e5e1fa6b4d"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}
